@@ -24,12 +24,12 @@ const Footer=()=>{
                        </div>
                        {/* {column1} */}
                        <div className='col'>
-                           <h4 className={styles.footerTitle}>The wizarding world of harry potter</h4>
+                           <h4 className={styles.footerTitle}>The wizarding world of Harry Potter</h4>
                            <ui  className={styles.footertext}>
                                <li>ABOUT US</li>
                                <li>PRIVACY SETTINGS</li>
                                <li>FAQ</li>
-                               <li>TERMS &CONDITIONS</li>
+                               <li>TERMS & CONDITIONS</li>
                            </ui>
                        </div>
                        {/* {column2} */}

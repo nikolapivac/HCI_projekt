@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "HarryP";
+    src:url("../fonts/HARRYP__.TTF") format("truetype");
+}
+    @font-face {
+    font-family: "Wizarding";
+    src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+}
+
+.expcontainer {
+    background-color: #0C1631;
+    margin-bottom: 20px;
+}
+
+.exp_image {
+    width: 400px;
+    height: 300px;
+}
+
+.exp_title {
+    font-family: HarryP;
+    color: #D3BA32;
+    font-size: 50px;
+}
+
+.text_container {
+    background-color:#0C1631;
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.exp_body{
+    font-family: Wizarding;
+    color: #fff;
+    font-size: 15px;
+}
+
+.exp_map{
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "HarryP";
+    src:url("../../fonts/HARRYP__.TTF") format("truetype");
+}
+    @font-face {
+    font-family: "Wizarding";
+    src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+}
+
+.postcontainer {
+    background-color: #0C1631;
+    margin-bottom: 20px;
+}
+
+.blog_image {
+    width: 400px;
+    height: 300px;
+}
+
+.post_title{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: HarryP;
+    color: #D3BA32;
+    font-size: 60px;
+}
+
+.card_title{
+    font-family: HarryP;
+    color: #D3BA32;
+    font-size: 40px;
+}
+
+.post_date{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: Wizarding;
+    color: #fff;
+    font-size: 15px;
+}
+
+.post_body{
+    margin-left: 30px;
+    font-family: Wizarding;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card_body{
+    font-family: Wizarding;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button{
+    text-decoration: none;
+    font-family: Wizarding;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #D3BA32;
+    color:#0C1631;
+    border-radius: 5px;
+}

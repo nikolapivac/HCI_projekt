@@ -2,24 +2,23 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
-import Post from '../components/Post'
+import Film from '../components/Film'
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
-import { sortByDate } from '../utils'
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from './blog/blogpost.module.css'
+import styles from '../components/films.module.css'
 
-export default function BlogIndex({ posts }) {
+export default function FilmIndex({ films }) {
     return (
       <div>
         <Header />
         <Head>
-          <title>Blog</title>
+          <title>Films</title>
         </Head>
 
-        <div className={styles.postcontainer}>
-            {posts.map((post, index) => (
-                <Post key={index} post={post} />
+        <div className={styles.filmscontainer}>
+            {films.map((film, index) => (
+                <Film key={index} film={film} />
             ))}
         </div>
         <Footer />
@@ -28,17 +27,17 @@ export default function BlogIndex({ posts }) {
   }
 
 export async function getStaticProps() {
-// Getting markdown files from the posts directory
-    const files = fs.readdirSync(path.join('posts'))
+// Getting markdown files from the films directory
+    const files = fs.readdirSync(path.join('films'))
 
-// Getting slug and frontmatter from posts
-    const posts = files.map((filename) => {
+// Getting slug and frontmatter from films
+    const films = files.map((filename) => {
         // Create slug by removing the .md extension
         const slug = filename.replace('.md', '')
 
         // Get frontmatter
         const markdownWithMeta = fs.readFileSync(
-            path.join('posts', filename),
+            path.join('films', filename),
             'utf-8'
         )
 
@@ -52,7 +51,7 @@ export async function getStaticProps() {
 })
 return {
     props: {
-      posts: posts.sort(sortByDate),
+      films,
     },
   }
 }

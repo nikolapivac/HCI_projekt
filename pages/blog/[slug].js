@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from './blogpost.module.css'
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -16,11 +18,11 @@ export default function PostPage({
     <>
       <Head><title>{title}</title></Head>  
       <Header />  
-      <div className='card card-page'>
-        <img src={cover_image} alt='' />
-        <h1 className='post-title'>{title}</h1>
-        <div className='post-date'>Posted on {date}</div>
-        <div className='post-body'>
+      <div className={styles.postcontainer}>
+        <img className={styles.blog_image} src={cover_image} alt='' />
+        <h1 className={styles.post_title}>{title}</h1>
+        <div className={styles.post_date}>Posted on {date}</div>
+        <div className={styles.post_body}>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>

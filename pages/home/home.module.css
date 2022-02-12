@@ -1,0 +1,106 @@
+@font-face {
+font-family: "HarryP";
+src:url("../../fonts/HARRYP__.TTF") format("truetype");
+}
+@font-face {
+font-family: "Wizarding";
+src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+}
+.banner {
+width: 100%;
+height: 635px;
+left: 0px;
+top: 480px;
+position: absolute;
+background-position: center;
+z-index: -1;
+}
+.paigecontainer
+{
+    display: flex ;
+    flex-direction: column;
+    min-height:80vh;
+    background-color: #0C1631;
+}
+
+.contentwrap{
+flex:1;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 1547px;
+height: 212px;
+}
+
+.container {
+position: relative;
+text-align: center;
+font-family: HarryP;
+font-style: normal;
+font-weight: normal;
+font-size: 170px;
+line-height: 171px;
+display: flex;
+color: #D3BA32;
+display: table;
+  margin: 0 auto;
+}
+
+.signup{
+position:absolute;
+width: 175px;
+height: 69px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background:#D3BA32;
+border-radius: 5px;
+font-family: Wizarding;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 55px;
+align-items: center;
+text-align: center;
+color: #0C1631;
+}
+.main-footer{
+ background-color: #0C1631; 
+ padding-top: 3rem;
+ position: relative;  
+ bottom: 0;
+ width:100%;
+}
+/* .row{
+    width: 100%;
+} */
+.flagstext{
+font-family: Wizard World;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 39px;
+}
+.discover{
+width: 304px;
+height: 77px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background:#D3BA32;
+border-radius: 10px;
+font-family: Wizarding;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 55px;
+align-items: center;
+text-align: center;
+color: #0C1631;
+}
+
+.color
+{
+    color: #0C1631;
+
+}

@@ -20,26 +20,28 @@ const Ravenclaw=()=>{
             <Image
             src={Rcrest}
             class="img-fluid"
+            width= "300px"
+            height="300px"
             ></Image>
         </div>
         <div className="col-2">
             <ui className={styles.text2}>
-                <li>FOUNDER:</li>
-                <li>HOUSE COLORS:</li>
-                <li>ANIMAL:</li>
-                <li>ELEMENT:</li>
-                <li>TRAITS:</li>
-                <li>HEAD:</li>
+                <li>founder:</li>
+                <li>house colors:</li>
+                <li>Animal:</li>
+                <li>element:</li>
+                <li>traits:</li>
+                <li>head:</li>
             </ui>
         </div>
         <div className="col" >
             <ui className={styles.text2}>
-                <li>ROWENA RAVENCLAW</li>
-                <li>BLUE AND BRONZE</li>
-                <li>EAGLE</li>
-                <li>AIR</li>
-                <li>WIT, LEARNING, WISDOM</li>
-                <li>FILIUS FLITWICK</li>
+                <li>rowena ravenclaw</li>
+                <li>blue and bronze</li>
+                <li>eagle</li>
+                <li>air</li>
+                <li>wit, learning, wisdom</li>
+                <li>filius flitwick</li>
             </ui>
         </div>
     </div>
@@ -53,19 +55,22 @@ const Ravenclaw=()=>{
             <div className="col">
                 <div className={styles.picture}>
             <Image
-            src={Luna} class="img-fluid"></Image>
+            src={Luna} class="img-fluid"  width="300px"
+            height="200px"></Image>
             </div>
             <h4 className={styles.text}>LUNA LOVEGOOD</h4>
             </div>
             <div className="col">
             <Image
-            src={Ollivander} class="img-fluid" 
+            src={Ollivander} class="img-fluid"  width="300px"
+            height="200px"
             ></Image>
             <h4 className={styles.text}>Garrick Ollivander</h4>
             </div>
             <div className="col">
             <Image
-            src={Filius} class="img-fluid" 
+            src={Filius} class="img-fluid"  width="300px"
+            height="200px" 
             ></Image>
             <h4 className={styles.text}>Filius Flitwick</h4>
             </div>

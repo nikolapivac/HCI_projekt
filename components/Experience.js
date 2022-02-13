@@ -1,14 +1,26 @@
 import styles from './exp.module.css'
+import Image from 'next/image'
 
 export default function Experience({ experience }) {
   return (
     <>
-    <div className='experiences'>
-      <div className='container fluid hero-lg'>
-           <div className={styles.expcontainer}>
-    <img className={styles.exp_image} src={experience.frontmatter.cover_image} alt='' />
+    <div className={styles.experiences}>
+      <div className='container fluid'>
+        <div className='row '>
+          <div className={styles.expcontainer}>
+
+    <Image className="img-fluid"
+    src={experience.frontmatter.cover_image}
+    alt=''
+    layout="responsive"
+    overflow="hidden"
+    width="400px"
+    height="300px"
+    //  height="50%"
+    objectFit='cover'
+    objectPosition='center' />
+           {/* <div className={styles.expcontainer}> */}
     </div>
-        <div className='row'>
           <div className='col'>
              <h3 className={styles.exp_title}>{experience.frontmatter.title}</h3>
     	          <div className={styles.text_container}>
@@ -23,6 +35,7 @@ export default function Experience({ experience }) {
     </div>   
     </div>
     </div>
+    {/* </div> */}
     </>
     )
   }

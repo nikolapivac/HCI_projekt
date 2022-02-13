@@ -2,7 +2,7 @@
 font-family: "HarryP";
 src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-.pic{
+.picture{
     border-radius: 30px;
     object-fit: cover;
 }
@@ -13,10 +13,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 40px;
 list-style:none;
-text-align: center;
-
+text-align: ;
 }
 .background{
 background: rgba(12, 22, 49, 1);
-
 }

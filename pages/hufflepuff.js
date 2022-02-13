@@ -20,26 +20,28 @@ const Hufflepuff=()=>{
             <Image
             src={Hcrest}
             class="img-fluid"
+            width= "300px"
+            height="300px"
             ></Image>
         </div>
         <div className="col-2">
             <ui className={styles.text2}>
-                <li>FOUNDER:</li>
-                <li>HOUSE COLORS:</li>
-                <li>ANIMAL:</li>
-                <li>ELEMENT:</li>
-                <li>TRAITS:</li>
-                <li>HEAD:</li>
+                <li>Founder:</li>
+                <li>House colors:</li>
+                <li>Animal:</li>
+                <li>Element:</li>
+                <li>Traits:</li>
+                <li>Head:</li>
             </ui>
         </div>
         <div className="col" >
             <ui className={styles.text2}>
-                <li>HELGA HUFFLEPUFF</li>
-                <li>YELLOW AND BLACK</li>
-                <li>BADGER</li>
-                <li>EARTH</li>
-                <li>PATIENCE, FAIRNESS, LOYALTY</li>
-                <li>POMONA SPROUT</li>
+                <li>Helga Hufflepuff</li>
+                <li>Yellow and black</li>
+                <li>Badger</li>
+                <li>Earth</li>
+                <li>Patience, fairness, loaylty</li>
+                <li>Pomona sprout</li>
             </ui>
         </div>
     </div>
@@ -53,19 +55,22 @@ const Hufflepuff=()=>{
             <div className="col">
                 <div className={styles.picture}>
             <Image
-            src={Lupin} class="img-fluid"></Image>
+            src={Lupin} class="img-fluid"  width="300px"
+            height="200px"></Image>
             </div>
             <h4 className={styles.text}>REMUS LUPIN</h4>
             </div>
             <div className="col">
             <Image
-            src={Tonks} class="img-fluid" 
+            src={Tonks} class="img-fluid"  width="300px"
+            height="200px"
             ></Image>
             <h4 className={styles.text}>NYMPHADORA TONKS</h4>
             </div>
             <div className="col">
             <Image
-            src={Sprout} class="img-fluid" 
+            src={Sprout} class="img-fluid"  width="300px"
+            height="200px"
             ></Image>
             <h4 className={styles.text}>POMONA SPROUT</h4>
             </div>

@@ -36,7 +36,7 @@ color:rgba(96, 96, 92, 1);
 font-family: HarryP;
 font-style: normal;
 font-weight: normal;
-text-align: center;
+text-align: center start;
 }
 .text2{
 list-style: none;
@@ -44,8 +44,8 @@ color:rgba(96, 96, 92, 1);
 font-family: Wizarding;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 25px;
+font-size: 25px;
+line-height: 26px;
 }
 
 .picture{

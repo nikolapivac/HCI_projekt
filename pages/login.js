@@ -1,7 +1,10 @@
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import Head from 'next/head'
+import Image from 'next/image';
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "/styles/login.module.css"
+import gimg from "../components/SignInWithGoogle.png"
 
 export default function LoginPage() {
     return(
@@ -10,9 +13,9 @@ export default function LoginPage() {
             <Head>
                 <title>Login</title>
             </Head>
-            <main className="flex flex-col items-center justify-center w-full flex-1 px-20">
+            <main className="flex flex-col items-center justify-center w-full flex-1 p-20">
                 <div className="bg-hp_blue text-text_yellow relative flex w-2/3">
-                    <div className="w-3/5 p-5">
+                    <div className="w-3/5 p-6">
                         <h1 className="text-4xl mb-3 ml-4">Join Us</h1>
 
                         <div className="flex-col ml-7">
@@ -34,8 +37,8 @@ export default function LoginPage() {
 
                         <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20">Sign Up</button>   
                     </div>
-
-                    <div className="w-2/5 p-5">
+<h2 className={styles.verticalline}></h2>
+                    <div className="w-2/5 p-6">
                         <h2 className="text-3xl mb-3 ml-4">Already have an account?</h2>
 
                         <div className="flex-col ml-7">
@@ -49,7 +52,9 @@ export default function LoginPage() {
                         <h4 className="text-xs mt-1 ml-20">Forgot your password?</h4>
 
                         <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20 mt-1">Login</button>
-
+                        <div className={styles.gimg}>
+                        <Image src={gimg} class="px-2 py-1 rounded-md ml-20 mt-1"></Image>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -58,4 +63,3 @@ export default function LoginPage() {
     )
 
 }
-

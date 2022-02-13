@@ -26,10 +26,10 @@ const Footer=()=>{
                        <div className='col'>
                            <h4 className={styles.footerTitle}>Wizarding world of Harry Potter</h4>
                            <ui  className={styles.footertext}>
-                               <li>ABOUT US</li>
-                               <li>PRIVACY SETTINGS</li>
-                               <li>FAQ</li>
-                               <li>TERMS & CONDITIONS</li>
+                               <li>About us</li>
+                               <li>Privay settings</li>
+                               <li>Faq</li>
+                               <li>Terms & conditions</li>
                            </ui>
                        </div>
                        {/* {column2} */}

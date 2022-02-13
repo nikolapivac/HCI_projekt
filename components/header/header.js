@@ -12,7 +12,7 @@ const Header =()=>{
         <header className={styles.header}>
         <button className={styles.log_in}>login</button>
         <div className="align"> 
-        <h1 className={styles.naslov1}>THE WIZARDING WORLD OF</h1>
+        <h1 className={styles.naslov1}>the wizarding world of</h1>
         <h2 className={styles.naslov2}>Harry Potter</h2>
         </div>
         {/* <Navbar/> */}

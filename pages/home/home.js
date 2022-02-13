@@ -12,7 +12,6 @@ import Shop4 from "../slike/shop/ron_sweater.png"
 
 const Home =()=>{
     return (
-<<<<<<< HEAD
     <div className={styles.pagecontainer}>
     <Header/>
     <div className={styles.contentwrap}>
@@ -25,54 +24,54 @@ const Home =()=>{
     {/* <button className={styles.signup}>SIGN UP</button> */}
     </div>
     </div>
-    <div className='main-footer color'>
+    <div className={styles.houses}>
                <div className='container-fluid'>
                    <div className='row'>
                        {/* {column0} */}
-                       <div className='col-4'>
-                           <Image class="img-responsive" src={FlagsImg}></Image>
+                       <div className='col-5'>
+                           <Image class="img-fluid" src={FlagsImg}></Image>
                        </div>
                        {/* {column1} */}
                        <div className='col'>
                            <div className={styles.align}>
                            <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
-                            <button className={styles.discover}>DISCOVER</button>
+                            <button className={styles.discover}>discover</button>
                            </div>
                        </div>
                        </div>
                        </div>
                        </div>
-    <div className="shop color2">
+    <div className={styles.shop}>
         <div className="container-fluid">
             <div className="row">
-                <h4 className={styles.flagstext}>Shop in our store</h4>
+                <h2 className={styles.shoptitle}>Shop in our store</h2>
                 <div className="col">
                     <Image
-                    className="img-responsive"
+                    className="img-fluid"
                     src={Shop1}></Image>
-                    <h4 className={styles.flagstext}>Bellatrix Lastrange’s wand
-$30.00</h4>
+                    <h5>Bellatrix Lastrange’s wand
+$30.00</h5>
                 </div>
                 <div className="col">
                     <Image
-                    className="img-responsive"
+                    className="img-fluid"
                     src={Shop2}></Image>
-                    <h4 className={styles.flagstext}>Chocolate Frog
-$10.00</h4>
+                    <h5>Chocolate Frog
+$10.00</h5>
                 </div>
                 <div className="col">
                     <Image
-                    className="img-responsive"
+                    className="img-fluid"
                     src={Shop3}></Image>
-                    <h4 className={styles.flagstext}>Marauder’s Map replica
-$20.00</h4>
+                    <h5>Marauder’s Map replica
+$20.00</h5>
                 </div>
                 <div className="col">
                     <Image
-                    className="img-responsive"
+                    className="img-fluid"
                     src={Shop4}></Image>
-                    <h4 className={styles.flagstext}>“R” knitted sweater
-$50.00</h4>
+                    <h5>“R” knitted sweater
+$50.00</h5>
                 </div>
 
             </div>
@@ -82,36 +81,6 @@ $50.00</h4>
     </div>
     <Footer/>
     </div>
-=======
-        <div className={styles.pagecontainer}>
-            <Header/>
-            <div className={styles.contentwrap}>
-                <div class={styles.container}>
-                    <Image src={Banner}
-                    alt="Banner"
-                    class={styles.banner}/>
-                        <div class={styles.centered}>Start your Hogwarts adventure</div>
-                        {/* <button className={styles.signup}>SIGN UP</button> */}
-                </div>
-                <div className='main-footer color'>
-                        <div className='container-fluid'>
-                            <div className='row'>
-                                {/* {column0} */}
-                                <div className='col-5'>
-                                    <Image class="img-responsive" src={FlagsImg}></Image>
-                                </div>
-                                {/* {column1} */}
-                                <div className='col '>
-                                    <h4 className={styles.container}>Hogwarts houses</h4>
-                                        <button className={styles.discover}>DISCOVER</button>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <Footer/>
-        </div>
->>>>>>> dc947ce6bae711eb945514f53033caa0735c7521
     );
 };
 

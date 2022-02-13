@@ -9,6 +9,8 @@ import { sortByDate } from '../utils'
 import styles from "./home/home.module.css"
 import stylesblog from "./blog/blogpost.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+
+
 export default function BlogIndex({ posts }) {
     return (
       <div>

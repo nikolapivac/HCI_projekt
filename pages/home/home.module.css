@@ -133,6 +133,10 @@ color: #0C1631;
   text-align: center;
 }
 
+.shop h5:hover{
+  cursor:pointer;
+}
+
 .align{
 display: flex;
 flex-direction: column;

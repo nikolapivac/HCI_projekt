@@ -19,13 +19,13 @@ export default function PostPage({
       <Head><title>{title}</title></Head>  
       <Header />  
       <div className={styles.postcontainer}>
+      </div>
         <img className={styles.blog_image} src={cover_image} alt='' />
         <h1 className={styles.post_title}>{title}</h1>
         <div className={styles.post_date}>Posted on {date}</div>
         <div className={styles.post_body}>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
-      </div>
       <Footer />
     </>
   )

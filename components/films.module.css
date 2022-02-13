@@ -12,6 +12,7 @@
 .filmscontainer {
     background-color: #0C1631;
     /* margin-bottom: 20px; */
+    padding-bottom: 3rem;
 }
 
 .title{
@@ -27,7 +28,7 @@
     width: 400px;
     height: 300px;
     border-radius:20px;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .film_title {

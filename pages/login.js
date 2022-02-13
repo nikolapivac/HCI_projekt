@@ -3,7 +3,7 @@ import Footer from '../components/footer/footer'
 import Head from 'next/head'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Login () {
+export default function LoginPage() {
     return(
         <div className="bg-hp_blue">
             <Header />

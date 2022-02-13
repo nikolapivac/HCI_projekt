@@ -10,9 +10,9 @@ src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 
 .footer{
 width: 100%;
-height: 379px;
+/* height: 379px; */
 left: 0px;
-top: 2376px;
+/* top: 2376px; */
 background:#0C1631;
 display: inline-block;
 
@@ -26,8 +26,6 @@ display: inline-block;
 {
 /* background:#0C1631; */
 font-family: HarryP;
-font-style: normal;
-font-weight: normal;
 font-size: 40x;
 line-height: 41px;
 display: flex;
@@ -37,9 +35,7 @@ color: #D3BA32;
 }
 
 .footertext{
-font-family: Wizard World;
-font-style: normal;
-font-weight: normal;
+font-family: Wizarding;
 font-size: 15px;
 line-height: 25px;
 list-style-type: none;

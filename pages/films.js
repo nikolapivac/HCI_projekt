@@ -12,10 +12,7 @@ export default function FilmIndex({ films }) {
     return (
       <div>
         <Header />
-        <Head>
-          <title>Films</title>
-        </Head>
-
+          <h1 className={styles.title}>Films</h1>
         <div className={styles.filmscontainer}>
             {films.map((film, index) => (
                 <Film key={index} film={film} />
@@ -25,7 +22,7 @@ export default function FilmIndex({ films }) {
       </div> 
     )
   }
-
+  
 export async function getStaticProps() {
 // Getting markdown files from the films directory
     const files = fs.readdirSync(path.join('films'))

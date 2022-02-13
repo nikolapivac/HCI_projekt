@@ -6,25 +6,43 @@
     font-family: "Wizarding";
     src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
-
+.film{
+    padding-left: 10rem;
+}
 .filmscontainer {
     background-color: #0C1631;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
+.title{
+    font-family: HarryP;
+    color: #D3BA32;
+    text-align: center;
+    font-size:80px;
+    background: #0C1631;
+    margin-bottom: 0;
+    padding-bottom: 5rem;
+}
 .film_image {
     width: 400px;
     height: 300px;
+    border-radius:20px;
+    padding-bottom: 2rem;
 }
 
 .film_title {
     font-family: HarryP;
     color: #D3BA32;
     font-size: 40px;
+    text-align: center;
+    padding-right:5rem;
 }
 
 .film_body{
+    padding-right:5rem;
     font-family: Wizarding;
     color: #fff;
     font-size: 15px;
+    margin-bottom: 0;
+    text-align:right;
 }

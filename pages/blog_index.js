@@ -7,6 +7,7 @@ import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import { sortByDate } from '../utils'
 import styles from "./home/home.module.css"
+import stylesblog from "./blog/blogpost.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -20,7 +21,7 @@ export default function BlogIndex({ posts }) {
           <title>Blog</title>
         </Head>
 
-        <div className={styles.postcontainer}>
+        <div className={stylesblog.postcontainer}>
             {posts.map((post, index) => (
               <Post key={index} post={post} />
               ))}

@@ -12,13 +12,13 @@ display: flex;
 place-items: center;
 justify-content: center;
 margin: auto;
-min-height: calc(50vh + 5em);
+min-height: calc(25vh + 5em);
 background:#0C1631;
 position: relative;}
 .log_in{
 position: absolute;
-width: 175px;
-height: 69px;
+width: 80px;
+height: 25px;
 right:5px;
 top: 5px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -27,13 +27,12 @@ border-radius: 5px;
 font-family: Wizarding;
 font-style: normal;
 font-weight: normal;
-font-size: 40px;
-line-height: 44px;
+font-size: 20px;
+line-height: 21px;
 display: inline-block;
 align-items: center;
 text-align: center;
 color: #0C1631;
-
 }
 .Nav_items
 {
@@ -41,8 +40,7 @@ list-style-type: none;
 display:inline-block;
 float: left;
 font-family: Wizarding;
-font-size: 40px;
-line-height: 44px;
+font-size: 30px;
 color: #D3BA32;
 margin-left:40px;
 margin-right:40px;
@@ -55,41 +53,50 @@ margin:0 auto;
 display: 'flex';
 justify-content: 'center';
 align-items: 'center';
-/* top: 50%; */
-/* left:20%;
-width:1600px; */
 background:#0C1631;
 position:absolute;
-height: 88px;
+height: 100px;
 top: 400px;
 }
 
 .naslov1{
 font-family: Wizarding;
 color: #D3BA32;
-position: absolute;
-width: 708px;
-height: 102.41px;
-left: 33%;
-top: 15%;
+/* position: absolute; */
+width: 700px;
+height: 51px;
 font-style: normal;
 font-weight: normal;
-font-size: 45px;
-line-height: 50px;
+font-size: 30px;
+line-height: 31px;
 text-align: center;
 
 }
 .naslov2{
 font-family: HarryP;
 color: #D3BA32;
-position: absolute;
-width: 708px;
-height: 117.71px;
-left:33%;
-top: 20%;
+/* position: absolute; */
+width: 700px;
+height: 51px;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
-line-height: 100px;
+font-size: 50px;
+line-height: 51px;
 text-align: center;    
+}
+
+.title{
+display: flex;
+flex-direction: column;
+place-items: start center;
+}
+.container{
+  display: inline-flex;
+  /* align-items items in column */
+  flex-direction: column;
+  /* center items horizontally */
+  align-items: center;
+  /* center items vertically */
+  justify-content: center;
+
 }

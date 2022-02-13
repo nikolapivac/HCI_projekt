@@ -15,16 +15,16 @@ const Footer=()=>{
         // </div>
         // <h1 className={styles.footerTitle}>Wizarding World of Harry Potter</h1>
         // </div>
-           <div className='mainfooter-lg-6 color'>
+           <div className={styles.mainfooter}>
                <div className='container-fluid'>
                    <div className='row'>
                        {/* {column0} */}
-                       <div className='col-3'>
-                           <Image  class="img-responsive" src={Footerimg}></Image>
+                       <div className='col-4'>
+                           <Image  class="img-fluid" src={Footerimg}></Image>
                        </div>
                        {/* {column1} */}
                        <div className='col'>
-                           <h4 className={styles.footerTitle}>The wizarding world of Harry Potter</h4>
+                           <h4 className={styles.footerTitle}>Wizarding world of Harry Potter</h4>
                            <ui  className={styles.footertext}>
                                <li>ABOUT US</li>
                                <li>PRIVACY SETTINGS</li>

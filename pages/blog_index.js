@@ -6,22 +6,27 @@ import Post from '../components/Post'
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import { sortByDate } from '../utils'
-
+import styles from "./home/home.module.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 export default function BlogIndex({ posts }) {
     return (
       <div>
+        <div className={styles.pagecontainer}>
         <Header />
+         <div className={styles.contentwrap}>
         <Head>
           <title>Blog</title>
         </Head>
 
         <div className='posts'>
             {posts.map((post, index) => (
-                <Post key={index} post={post} />
-            ))}
+              <Post key={index} post={post} />
+              ))}
+        </div>
         </div>
         <Footer />
       </div> 
+      </div>
     )
   }
 

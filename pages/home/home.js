@@ -12,7 +12,6 @@ import Shop4 from "../slike/shop/ron_sweater.png"
 
 const Home =()=>{
     return (
-<<<<<<< HEAD
     <div className={styles.pagecontainer}>
     <Header/>
     <div className={styles.contentwrap}>
@@ -82,36 +81,6 @@ $50.00</h4>
     </div>
     <Footer/>
     </div>
-=======
-        <div className={styles.pagecontainer}>
-            <Header/>
-            <div className={styles.contentwrap}>
-                <div class={styles.container}>
-                    <Image src={Banner}
-                    alt="Banner"
-                    class={styles.banner}/>
-                        <div class={styles.centered}>Start your Hogwarts adventure</div>
-                        {/* <button className={styles.signup}>SIGN UP</button> */}
-                </div>
-                <div className='main-footer color'>
-                        <div className='container-fluid'>
-                            <div className='row'>
-                                {/* {column0} */}
-                                <div className='col-5'>
-                                    <Image class="img-responsive" src={FlagsImg}></Image>
-                                </div>
-                                {/* {column1} */}
-                                <div className='col '>
-                                    <h4 className={styles.container}>Hogwarts houses</h4>
-                                        <button className={styles.discover}>DISCOVER</button>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <Footer/>
-        </div>
->>>>>>> dc947ce6bae711eb945514f53033caa0735c7521
     );
 };
 

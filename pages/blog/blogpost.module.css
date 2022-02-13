@@ -10,11 +10,16 @@
 .postcontainer {
     background-color: #0C1631;
     /* margin-bottom: 20px; */
+    padding-bottom: 3rem;
+    padding-left:2rem;
+    padding-right:5rem
 }
 
 .blog_image {
     width: 400px;
     height: 300px;
+    border-radius: 20px;
+    /* padding-bottom: 2rem; */
 }
 
 .post_title{

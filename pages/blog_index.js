@@ -6,8 +6,14 @@ import Post from '../components/Post'
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import { sortByDate } from '../utils'
+<<<<<<< HEAD
 import styles from "./home/home.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+=======
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from './blog/blogpost.module.css'
+
+>>>>>>> dc947ce6bae711eb945514f53033caa0735c7521
 export default function BlogIndex({ posts }) {
     return (
       <div>
@@ -18,7 +24,7 @@ export default function BlogIndex({ posts }) {
           <title>Blog</title>
         </Head>
 
-        <div className='posts'>
+        <div className={styles.postcontainer}>
             {posts.map((post, index) => (
               <Post key={index} post={post} />
               ))}
@@ -51,8 +57,8 @@ export async function getStaticProps() {
             slug,
             frontmatter,
         }
+        
 })
-
 return {
     props: {
       posts: posts.sort(sortByDate),

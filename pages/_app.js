@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import styles from "./app.css"
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>

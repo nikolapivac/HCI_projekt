@@ -21,7 +21,7 @@ const Nvbar = () => {
         //     ))}
         // </nav>
         <> 
-        <Navbar sticky="top" expand="lg" collapseOnSelect className={styles.nvbar}>
+        <Navbar sticky="top" expand="sm" collapseOnSelect className={styles.nvbar}>
 
         <Navbar.Toggle/>
         <Navbar.Collapse>

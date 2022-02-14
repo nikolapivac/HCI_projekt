@@ -6,6 +6,8 @@ import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import Banner from '../public/images/shop/banner.jpg'
 import Cart from '../public/images/shop/carticon.png'
+import styles from "/styles/shop.module.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Shop(){
     
@@ -17,6 +19,7 @@ export default function Shop(){
         setData(result);
     }
     return(
+        <div>
         <div className="bg-hp_blue">
             <Head>
                 <title>Shop</title>
@@ -42,21 +45,30 @@ export default function Shop(){
             </div>
 
             <div>
+                <div className='container-fluid'>
+                    <div className='row'>
                 {data.map((product)=>(
-                    <div className="w-48 h-48 bg-hp_blue text-text_yellow font-Wizarding">
-                        <img src={product.image}/>
-                        <div>
-                            <h2>{product.name}</h2>
-                            <h1>{product.price}</h1>
-                        </div>
+                        <div className={styles.product_grid}>
+                        <div class='.col-4 '>  
+                        <img src={product.image} class="img-fluid" width="200px" height="200px"/>
+                        </div> 
+                        
+                            <h4>{product.name}</h4>
+                            <h4 >{product.price}</h4>
+                        
                         <button className="p-1 rounded-md bg-text_yellow text-hp_blue">Add To Cart</button>
-                    </div>
+                    
+                        <div class='.col-4 '>
+                        </div>
+                
+                </div>
                 ))}
-            </div>
+                </div>
+                </div>
+                </div>
+                
             <Footer />
-        </div>
-    )
-
-    
-
+            </div>
+   </div>
+    );
 }

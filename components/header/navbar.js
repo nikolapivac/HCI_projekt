@@ -1,9 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 import { navigationItems } from '../../const/NavbarList';
 import styles from "./navbar.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.css";
+import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
-const Navbar = () => {
+const Nvbar = () => {
     return (
         // <nav
         //     className={styles.nav}
@@ -17,39 +20,39 @@ const Navbar = () => {
         //         </li>
         //     ))}
         // </nav>
-        <nav class="navbar navbar-expand-sm navbar-dark">
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarMenu">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                      <a href=''>HOME</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href='hogwarts_houses' clas="nav-link"> HOGWARTS HOUSES</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href='films' clas="nav-link">FILMS</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href='experience' clas="nav-link">EXPERIENCE</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href='blog_index' clas="nav-link">BLOG</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href='shop' clas="nav-link">SHOP</a>
-                  </li>
-              </ul>
-          </div>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        </nav>
+        <> 
+        <Navbar sticky="top" expand="lg" collapseOnSelect className={styles.nvbar}>
 
-    );
-    
+        <Navbar.Toggle/>
+        <Navbar.Collapse>
+
+
+            <Nav >
+                <Nav.Link href="/"><h4 className={styles.items}>Home</h4></Nav.Link>
+            </Nav>
+            <Nav >
+                <Nav.Link href="/hogwarts_houses"><h4 className={styles.items}>Hogwarts houses</h4></Nav.Link>
+            </Nav>
+
+            <Nav>
+                <Nav.Link href="/films"><h4 className={styles.items}>Films</h4></Nav.Link>
+            </Nav>
+            <Nav >
+                <Nav.Link href="/experience"><h4 className={styles.items}>Experience</h4></Nav.Link>
+            </Nav>
+            <Nav >
+                <Nav.Link href="/blog_index"><h4 className={styles.items}>Blog</h4></Nav.Link>
+            </Nav>
+            <Nav className={styles.items}>
+                <Nav.Link href="/"><h4 className={styles.items}>Shop</h4></Nav.Link>
+            </Nav>
+            
+        </Navbar.Collapse>
+
+        </Navbar>
+</>
+);
+
 };
 
-export default Navbar;
+export default Nvbar;

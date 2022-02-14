@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Head from "next/head";
 import styles from "./app.css"
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 
 function MyApp({ Component, pageProps }) {
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.png" key="icon" />
       </Head>
       <Component {...pageProps} />
+<script>var Alert = ReactBootstrap.Alert;</script>
     </>
+    
   );
 }
 

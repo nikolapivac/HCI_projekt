@@ -12,7 +12,7 @@ display: flex;
 place-items: center;
 justify-content: center;
 margin: auto;
-min-height: calc(25vh + 5em);
+min-height: calc(20vh + 5em);
 background:#0C1631;
 position: relative;}
 .log_in{
@@ -33,6 +33,8 @@ display: inline-block;
 align-items: center;
 text-align: center;
 color: #0C1631;
+text-decoration: none;
+color: inherit;
 }
 .Nav_items
 {
@@ -47,6 +49,7 @@ margin-right:40px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 }
 .nav{
 margin:0 auto;
@@ -57,6 +60,21 @@ background:#0C1631;
 position:absolute;
 height: 100px;
 top: 400px;
+text-decoration:none ;
+}
+
+.nvbar{
+  background-color: #0C1631;
+  font-family: Wizarding;
+  color: #D3BA32;
+  align-items: center;
+}
+
+.items{
+  color: #D3BA32 !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
 }
 
 .naslov1{
@@ -89,6 +107,7 @@ text-align: center;
 display: flex;
 flex-direction: column;
 place-items: start center;
+margin: auto;
 }
 .container{
   display: inline-flex;
@@ -100,3 +119,4 @@ place-items: start center;
   justify-content: center;
 
 }
+

@@ -7,11 +7,15 @@ import Snape from "./slike/notable members/snape.jpg"
 import Voldemort from "./slike/notable members/voldemort.jpg"
 import styles from "./houses/slytherin.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import Head from 'next/head'
 
 const Slytherin=()=>{
     return(
     <>
 <Header/>
+<Head>
+    <title>Slytherin</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
         <h1 className={styles.title}>Slytherin</h1>

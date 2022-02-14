@@ -2,7 +2,7 @@
 font-family: "HarryP";
 src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-.picture{
+.pic{
     border-radius: 30px;
     object-fit: cover;
 }
@@ -15,7 +15,9 @@ font-size: 40px;
 list-style:none;
 text-align: center;
 cursor: pointer;
+text-decoration:none
 }
+
 .text:hover{
   color:#8b790f;
 }

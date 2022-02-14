@@ -7,11 +7,15 @@ import Ollivander from "./slike/notable members/ollivander.jpg"
 import Filius from "./slike/notable members/Flitwick.jpg"
 import styles from "./houses/ravenclaw.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import Head from 'next/head'
 
 const Ravenclaw=()=>{
     return(
     <>
 <Header/>
+<Head>
+    <title>Ravenclaw</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
         <h1 className={styles.title}>Ravenclaw</h1>

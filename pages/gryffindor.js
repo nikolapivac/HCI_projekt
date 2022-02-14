@@ -1,4 +1,5 @@
 import Header from "../components/header/header"
+import Head from 'next/head'
 import Image from 'next/image';
 import Footer from "../components/footer/footer"
 import Gcrest from "../pages/slike/house crests/gryffindorcrest.jpg"
@@ -9,10 +10,14 @@ import styles from "./houses/gryffindor.module.css"
 import "./houses/gryffindor.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const Gryffindor=()=>{
     return(
     <>
 <Header/>
+<Head>
+    <title>Gryffindor</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
         <h1 className={styles.title}>Gryffindor</h1>

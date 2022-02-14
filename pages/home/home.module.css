@@ -119,6 +119,10 @@ align-items: center;
 text-align: center;
 }
 
+.discover a{
+  text-decoration: none;
+  color: inherit;
+}
 .discover:hover{
   color: #8b790f;
 }
@@ -166,8 +170,14 @@ place-items: center start;
   text-align: center;
   margin: auto;
   font-family: Wizarding;
+  text-decoration: none;
 }
 
 .bttn:hover{
   color: #8b790f;
 }
+
+.window.scroll{
+  top: 0; 
+  left: 0; 
+};

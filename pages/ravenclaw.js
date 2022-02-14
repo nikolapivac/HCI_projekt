@@ -56,21 +56,21 @@ const Ravenclaw=()=>{
                 <div className={styles.picture}>
             <Image
             src={Luna} class="img-fluid"  width="300px"
-            height="200px"></Image>
+            height="200px" className={styles.picture}></Image>
             </div>
             <h4 className={styles.text}>LUNA LOVEGOOD</h4>
             </div>
             <div className="col">
             <Image
             src={Ollivander} class="img-fluid"  width="300px"
-            height="200px"
+            height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Garrick Ollivander</h4>
             </div>
             <div className="col">
             <Image
             src={Filius} class="img-fluid"  width="300px"
-            height="200px" 
+            height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Filius Flitwick</h4>
             </div>

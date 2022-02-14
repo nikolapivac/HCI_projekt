@@ -1,5 +1,6 @@
 import Header from "../../components/header/header"
 import Image from 'next/image';
+import Link from "next/link";
 import Footer from "../../components/footer/footer"
 import styles from "./home.module.css"
 import "./home.module.css"
@@ -18,10 +19,12 @@ const Home =()=>{
     <div class={styles.container}>
     <Image src={Banner}
     alt="Banner"
-    class={styles.banner}/>
+    class={styles.banner}
+    className="img-fluid"/>
     <div className={styles.align}>
-    <div class={styles.centered}>Start your Hogwarts adventure</div>
-    {/* <button className={styles.signup}>SIGN UP</button> */}
+    <h1 class={styles.centered}>Start your Hogwarts adventure</h1>
+    <button className={styles.signup}>
+        <Link href="/login">Sign up</Link></button>
     </div>
     </div>
     <div className={styles.houses}>
@@ -35,7 +38,8 @@ const Home =()=>{
                        <div className='col'>
                            <div className={styles.align}>
                            <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
-                            <button className={styles.discover}>discover</button>
+                            <button className={styles.discover}>
+                                <Link href="/hogwarts_houses"><h4 className={styles.bttn}>discover</h4></Link></button>
                            </div>
                        </div>
                        </div>

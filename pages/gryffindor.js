@@ -59,6 +59,7 @@ const Gryffindor=()=>{
             class="img-fluid"
             width="300px"
             height="200px"
+            className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Harry Potter, Hermione Granger and Ron Weasley</h4>
             </div>
@@ -68,6 +69,7 @@ const Gryffindor=()=>{
             class="img-fluid"
              width="300px"
             height="200px" 
+            className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Albus Dumbledore</h4>
             </div>
@@ -77,6 +79,7 @@ const Gryffindor=()=>{
             class="img-fluid" 
              width="300px"
             height="200px"
+            className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Minerva McGonagall</h4>
             </div>

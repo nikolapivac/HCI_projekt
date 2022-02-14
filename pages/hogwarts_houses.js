@@ -1,9 +1,10 @@
-import Header from "../components/header/header"
+import Header from "../components/header/header";
 import Image from 'next/image';
+import Link from "next/link";
 import Footer from "../components/footer/footer"
 import Gryffindor from "./slike/house crests/gryffindor.jpg"
 import Slytherin from "./slike/house crests/slytherin.jpg"
-import Rawenclaw from "./slike/house crests/rawenclaw.jpg"
+import Ravenclaw from "./slike/house crests/rawenclaw.jpg"
 import Hufflepuf from "./slike/house crests/hufflepuf.jpg"
 import styles from "./houses/houses.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,23 +18,22 @@ const HousesIndex=()=>{
         <div className="row">
             <div className="col">
                 <Image src={Gryffindor} className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Gryfffindor</h4>
-
-            </div>
+               <Link href="/gryffindor"><h4 className={styles.text}>Gryffindor</h4></Link>
+               </div>
             <div className="col">
-                <Image src={Rawenclaw} className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Rawenclaw</h4>
+                <Image src={Ravenclaw} className="img-resposive" class={styles.pic}></Image>
+               <Link href="/ravenclaw"><h4 className={styles.text}>Ravenclaw</h4></Link>
 
             </div>
             <div className="col">
                 <Image src={Hufflepuf} className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Hufflepuf</h4>
+                <Link href="/hufflepuff"><h4 className={styles.text}>Hufflepuff</h4></Link>
 
             </div>
             <div className="col">
                 <Image src={Slytherin}className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Slytherin</h4>
-
+               <Link href="/slytherin"><h4 className={styles.text}>Slytherin</h4></Link>
+>
             </div>
 
         </div>

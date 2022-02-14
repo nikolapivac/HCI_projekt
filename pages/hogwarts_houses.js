@@ -1,7 +1,6 @@
 import Header from "../components/header/header"
 import Head from 'next/head'
 import Image from 'next/image';
-import Link from "next/link";
 import Footer from "../components/footer/footer"
 import Gryffindor from "./slike/house crests/gryffindor.jpg"
 import Slytherin from "./slike/house crests/slytherin.jpg"

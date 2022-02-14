@@ -28,7 +28,7 @@ const Home =()=>{
     <div className={styles.align}>
     <h1 class={styles.centered}>Start your Hogwarts adventure</h1>
     <button className={styles.signup}>
-        <Link href="/login">Sign up</Link></button>
+        <a href="/login">Sign up</a></button>
     </div>
     </div>
     <div className={styles.houses}>
@@ -43,7 +43,7 @@ const Home =()=>{
                            <div className={styles.align}>
                            <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
                             <button className={styles.discover}>
-                                <Link href="/hogwarts_houses"><h4 className={styles.bttn}>discover</h4></Link></button>
+                                <a href="/hogwarts_houses"><h4 className={styles.bttn}>discover</h4></a></button>
                            </div>
                        </div>
                        </div>

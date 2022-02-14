@@ -1,4 +1,5 @@
 import Header from "../components/header/header"
+import Head from 'next/head'
 import Image from 'next/image';
 import Footer from "../components/footer/footer"
 import Gryffindor from "./slike/house crests/gryffindor.jpg"
@@ -12,12 +13,15 @@ const HousesIndex=()=>{
     return(
         <>
 <Header/>
+<Head>
+    <title>Hogwarts Houses</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
         <div className="row">
             <div className="col">
                 <Image src={Gryffindor} className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Gryfffindor</h4>
+                <h4 className={styles.text}>Gryffindor</h4>
 
             </div>
             <div className="col">
@@ -27,7 +31,7 @@ const HousesIndex=()=>{
             </div>
             <div className="col">
                 <Image src={Hufflepuf} className="img-resposive" class={styles.pic}></Image>
-                <h4 className={styles.text}>Hufflepuf</h4>
+                <h4 className={styles.text}>Hufflepuff</h4>
 
             </div>
             <div className="col">

@@ -11,7 +11,8 @@ module.exports = {
       },
       colors:{
         'hp_blue': '#0C1631',
-        'text_yellow': '#D3BA32'
+        'text_yellow': '#D3BA32',
+        'hov_yellow': '#8b790f'
       },
     },
   },

@@ -2,6 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+  font-family: "HarryP";
+  src:url("../fonts/HARRYP__.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Wizarding";
+  src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+}
+
 html,
 body {
   width: 100%;

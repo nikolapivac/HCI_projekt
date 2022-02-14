@@ -14,22 +14,22 @@ export default function Shop(){
             </Head>
             <Header />
             <Image src={Banner}/>
-            <div className="text-6xl text-text_yellow">Get the new Harry Potter merchandise</div>
-            <div>
+            <div className="text-6xl text-text_yellow font-HarryP">Get the new Harry Potter merchandise</div>
+            <div >
                 <Grid container spacing={3}>
                     {data.products.map((product)=>(
                         <Grid item md={4} key={product.name}>
                             <Card>
-                                <CardActionArea>
+                                <CardActionArea style={{backgroundColor: "#0C1631"}}>
                                     <CardMedia component="img" image={product.image} title={product.name}>
                                     </CardMedia>
                                     <CardContent>
-                                        <Typography>{product.name}</Typography>
+                                        <Typography className="text-text_yellow" style={{fontFamily: "Wizarding"}}>{product.name}</Typography>
                                     </CardContent>
                                 </CardActionArea>
-                                <CardActions>
-                                    <Typography>{product.price}</Typography>
-                                    <Button size="small" color="primary">Add To Cart</Button>
+                                <CardActions style={{backgroundColor: "#0C1631"}}>
+                                    <Typography className="text-text_yellow" style={{fontFamily: "Wizarding"}}>{product.price}</Typography>
+                                    <Button size="small" color="primary" style={{color:"#D3BA32", fontFamily: "Wizarding"}}>Add To Cart</Button>
                                 </CardActions>
                             </Card>
                         </Grid>

@@ -13,7 +13,7 @@ export default function LoginPage() {
             <Head>
                 <title>Login</title>
             </Head>
-            <main className="flex flex-col items-center justify-center w-full flex-1 p-20">
+            <main className="flex flex-col items-center justify-center w-full flex-1 p-20 font-Wizarding">
                 <div className="bg-hp_blue text-text_yellow relative flex w-2/3">
                     <div className="w-3/5 p-6">
                         <h1 className="text-4xl mb-3 ml-4">Join Us</h1>

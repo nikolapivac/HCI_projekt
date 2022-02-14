@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        HarryP: ["HarryP"],
+        Wizarding: ["Wizarding"],
+      },
       colors:{
         'hp_blue': '#0C1631',
         'text_yellow': '#D3BA32'

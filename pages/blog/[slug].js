@@ -19,15 +19,19 @@ export default function PostPage({
       <Head><title>{title}</title></Head>  
       <Header />  
       <div className={styles.postcontainer}>
+       <div className='container-fluid'>
       <div class="row">
-        <div className={styles.container}>
+        {/* <div className={styles.container}> */}
+          <div className='col-6 gx-0'>
         <img className={styles.blog_image} className="img-fluid" src={cover_image} alt='' />  
-        <h1 className={styles.post_title}>{title}</h1>
-        </div>
-      </div>
-      <div class="row">
+          </div>
+          <div className='col-6'>
+        <h4 className={styles.post_title}>{title}</h4>
         <div className={styles.post_date}>Posted on {date}</div>
-      </div>
+          </div>
+        </div>
+      {/* </div> */}
+        </div>
       <div class="row">
         <div className={styles.post_body}>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>

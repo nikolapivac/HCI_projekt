@@ -9,28 +9,29 @@
 
 .postcontainer {
     background-color: #0C1631;
-    padding-bottom: 3rem;
-    padding-left:2rem;
-    padding-right:5rem
+     padding-bottom: 3rem; 
+     padding-left:3rem;
+    padding-right:5rem; 
 }
 .container{
-      position: relative;
+position: relative;
   text-align: center;
 }
 
 .blog_image {
     width: 400px;
-    height: 300px;
+    height: 250px;
     border-radius: 20px;
+
 }
 
 .post_title{
     /* margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 0px; */
-    position: absolute;
-  bottom: 8px;
-  left: 16px;
+    position: relative;
+  /* bottom: 8px;
+  left: 16px; */
     font-family: HarryP;
     color: #D3BA32;
     font-size: 60px;
@@ -43,7 +44,7 @@
 }
 
 .post_date{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-bottom: 20px;
     font-family: Wizarding;
     color: #fff;
@@ -51,10 +52,11 @@
 }
 
 .post_body{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-family: Wizarding;
     color: #fff;
     font-size: 20px;
+    padding-top: 2rem;
 }
 
 .card_body{

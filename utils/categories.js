@@ -1,11 +1,10 @@
-const data = {
-    products: [
+const Categories = [
         {
-            name: "Dumbledore's wand",
-            category: "Wands",
-            image: "/images/shop/DumbledoreWand.webp",
-            price: "$40",
-            date: "November 3, 2018"
+            name: "'R' Knitted Sweater",
+            category: "Clothes",
+            image: "/images/shop/RKnittedSweater.webp",
+            price: "$50",
+            date: "September 3, 2018"
         },
         {
             name: "Bellatrix Lastrange's wand",
@@ -15,32 +14,18 @@ const data = {
             date: "October 4, 2018"
         },
         {
-            name: "Cedric Diggory's wand",
-            category: "Wands",
-            image: "/images/shop/CedricWand.webp",
-            price: "$30",
-            date: "November 16, 2017"
-        },
-        {
-            name: "Dark Arts wand",
-            category: "Wands",
-            image: "/images/shop/DarkArtsWand.webp",
-            price: "$33",
-            date: "November 30, 2018"
-        },
-        {
-            name: "Draco Malfoy's wand",
-            category: "Wands",
-            image: "/images/shop/DracoWand.webp",
-            price: "$35",
-            date: "July 13, 2018"
-        },
-        {
             name: "Chocolate Frog",
             category: "Sweets",
             image: "/images/shop/ChocoFrog.webp",
             price: "$10",
             date: "November 12, 2017"
+        },
+        {
+            name: "Gryffindor Cape",
+            category: "Clothes",
+            image: "/images/shop/GCape.webp",
+            price: "$45",
+            date: "March 6, 2018"
         },
         {
             name: "Ravenclaw Chocolate",
@@ -50,12 +35,42 @@ const data = {
             date: "November 30, 2018"
         },
         {
+            name: "Dumbledore's wand",
+            category: "Wands",
+            image: "/images/shop/DumbledoreWand.webp",
+            price: "$40",
+            date: "November 3, 2018"
+        },
+        {
+            name: "Slytherin Hat",
+            category: "Clothes",
+            image: "/images/shop/SHat.webp",
+            price: "$15",
+            date: "November 13, 2018"
+        },
+        {
+            name: "Cedric Diggory's wand",
+            category: "Wands",
+            image: "/images/shop/CedricWand.webp",
+            price: "$30",
+            date: "November 16, 2017"
+        },
+        {
             name: "Slytherin Dark Chocolate",
             category: "Sweets",
             image: "/images/shop/SChoco.webp",
             price: "$5",
             date: "November 3, 2018"
         },
+
+        {
+            name: "Draco Malfoy's wand",
+            category: "Wands",
+            image: "/images/shop/DracoWand.webp",
+            price: "$35",
+            date: "July 13, 2018"
+        },
+
         {
             name: "Bootled Butter Beer",
             category: "Sweets",
@@ -69,20 +84,20 @@ const data = {
             image: "/images/shop/FudgeFlies.webp",
             price: "$5",
             date: "November 30, 2020"
+        },        
+        {
+            name: "The Fat Lady Pin",
+            category: "Props",
+            image: "/images/shop/FLPin.webp",
+            price: "$10",
+            date: "July 31, 2021"
         },
         {
-            name: "'R' Knitted Sweater",
-            category: "Clothes",
-            image: "/images/shop/RKnittedSweater.webp",
-            price: "$50",
-            date: "September 3, 2018"
-        },
-        {
-            name: "Gryffindor Cape",
-            category: "Clothes",
-            image: "/images/shop/GCape.webp",
-            price: "$45",
-            date: "March 6, 2018"
+            name: "Dark Arts wand",
+            category: "Wands",
+            image: "/images/shop/DarkArtsWand.webp",
+            price: "$33",
+            date: "November 30, 2018"
         },
         {
             name: "Gryffindor Hoodie",
@@ -91,13 +106,7 @@ const data = {
             price: "$45",
             date: "January 31, 2019"
         },
-        {
-            name: "Slytherin Hat",
-            category: "Clothes",
-            image: "/images/shop/SHat.webp",
-            price: "$15",
-            date: "November 13, 2018"
-        },
+
         {
             name: "Hufflepuff Socks",
             category: "Clothes",
@@ -119,13 +128,7 @@ const data = {
             price: "$7",
             date: "July 6, 2020"
         },
-        {
-            name: "The Fat Lady Pin",
-            category: "Props",
-            image: "/images/shop/FLPin.webp",
-            price: "$10",
-            date: "July 31, 2021"
-        },
+
         {
             name: "Gryffindor Backpack Set",
             category: "Props",
@@ -140,7 +143,6 @@ const data = {
             price: "$4",
             date: "July 6, 2021"
         },
-    ],
-};
+    ];
 
-export default data;
+export default Categories;

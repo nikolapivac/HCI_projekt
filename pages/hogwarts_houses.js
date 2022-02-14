@@ -1,4 +1,5 @@
-import Header from "../components/header/header";
+import Header from "../components/header/header"
+import Head from 'next/head'
 import Image from 'next/image';
 import Link from "next/link";
 import Footer from "../components/footer/footer"
@@ -13,27 +14,30 @@ const HousesIndex=()=>{
     return(
         <>
 <Header/>
+<Head>
+    <title>Hogwarts Houses</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
         <div className="row">
             <div className="col">
                 <Image src={Gryffindor} className="img-resposive" class={styles.pic}></Image>
-               <Link href="/gryffindor"><h4 className={styles.text}>Gryffindor</h4></Link>
+               <a className={styles.text} href="/gryffindor"><h2>Gryffindor</h2></a>
                </div>
             <div className="col">
                 <Image src={Ravenclaw} className="img-resposive" class={styles.pic}></Image>
-               <Link href="/ravenclaw"><h4 className={styles.text}>Ravenclaw</h4></Link>
+               <a className={styles.text} href="/ravenclaw"><h2>Ravenclaw</h2></a>
 
             </div>
             <div className="col">
                 <Image src={Hufflepuf} className="img-resposive" class={styles.pic}></Image>
-                <Link href="/hufflepuff"><h4 className={styles.text}>Hufflepuff</h4></Link>
+                <a className={styles.text} href="/hufflepuff"><h2>Hufflepuff</h2></a>
 
             </div>
             <div className="col">
                 <Image src={Slytherin}className="img-resposive" class={styles.pic}></Image>
-               <Link href="/slytherin"><h4 className={styles.text}>Slytherin</h4></Link>
->
+                <a className={styles.text} href="/slytherin"><h2>Slytherin</h2></a>
+
             </div>
 
         </div>

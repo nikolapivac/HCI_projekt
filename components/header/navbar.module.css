@@ -26,6 +26,16 @@ background:#D3BA32;
 border-radius: 2px;
 display: inline-block;
 align-items: center;
+text-align: center;
+color: #0C1631;
+color: inherit;
+}
+.log_in a{
+  text-decoration: none;
+  color: inherit;
+}
+.log_in a:hover{
+  color:#8b790f;
 }
 .Nav_items
 {
@@ -62,14 +72,14 @@ text-decoration:none ;
 }
 
 .items{
-  color: #D3BA32 !important;
+  color: #D3BA32;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
 }
 
-.nav-links:hover {
-  color:#0C1631
+.items:hover{
+  color: #8b790f;
 }
 
 .naslov1{
@@ -116,9 +126,13 @@ margin: auto;
 
 
 .bttn{
-  color:  #0C1631 !important;
+  color:  #0C1631;
   font-size: 15px;
   text-align: center;
   margin: auto;
   font-family: Wizarding;
+}
+
+.bttn:hover{
+  color:#8b790f;
 }

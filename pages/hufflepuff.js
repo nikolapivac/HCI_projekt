@@ -7,14 +7,18 @@ import Tonks from "./slike/notable members/NymphadoraTonks.jpg"
 import Sprout from "./slike/notable members/Sprout.jpg"
 import styles from "./houses/hufflepuff.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import Head from 'next/head'
 
 const Hufflepuff=()=>{
     return(
     <>
 <Header/>
+<Head>
+    <title>Hufflepuff</title>
+</Head>
 <div className={styles.background}>
     <div className="container-fluid">
-        <h1 className={styles.title}>Hufflepuf</h1>
+        <h1 className={styles.title}>Hufflepuff</h1>
     <div className="row">
         <div className="col-4">
             <Image

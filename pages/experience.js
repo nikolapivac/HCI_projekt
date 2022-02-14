@@ -13,7 +13,7 @@ export default function ExpIndex({ experiences }) {
       <div>
         <Header />
         <Head>
-          <title>Experiences</title>
+          <title>Experience</title>
         </Head>
 
         <div className={styles.expcontainer}>

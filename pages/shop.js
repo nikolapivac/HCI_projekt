@@ -32,14 +32,14 @@ export default function Shop(){
                 <h1 className="p-4">Products</h1>
                 
                 <div className="flex flex-col">
-                    <button className="mb-3" onClick={()=>filterResult('Clothes')}>Clothes</button>
-                    <button className="mb-3" onClick={()=>filterResult('Sweets')}>Sweets</button>
-                    <button className="mb-3" onClick={()=>filterResult('Props')}>Props</button>
-                    <button className="mb-3" onClick={()=>filterResult('Wands')}>Wands</button>
+                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Clothes')}>Clothes</button>
+                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Sweets')}>Sweets</button>
+                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Props')}>Props</button>
+                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Wands')}>Wands</button>
                 </div>
                 <div className="w-6 h-6">
                     <Image src={Cart}/>
-                    <button className="border-2 border-hp_blue rounded-md text-justify">Go To Cart</button>
+                    <button className="border-2 border-hp_blue rounded-md text-justify hover:text-hov_yellow">Go To Cart</button>
                 </div>
                 
             </div>

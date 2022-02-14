@@ -35,7 +35,7 @@ export default function LoginPage() {
                             <input className ="mb-3" type="date" placeholder="" name="dob" required></input>
                         </div>
 
-                        <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20">Sign Up</button>   
+                        <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20 hover:text-hov_yellow">Sign Up</button>   
                     </div>
 <h2 className={styles.verticalline}></h2>
                     <div className="w-2/5 p-6">
@@ -51,9 +51,9 @@ export default function LoginPage() {
                         </div>
                         <h4 className="text-xs mt-1 ml-20">Forgot your password?</h4>
 
-                        <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20 mt-1">Login</button>
+                        <button className="bg-text_yellow text-hp_blue px-2 py-1 rounded-md ml-20 mt-1 hover:text-hov_yellow">Login</button>
                         <div className={styles.gimg}>
-                        <Image src={gimg} class="px-2 py-1 rounded-md ml-20 mt-1"></Image>
+                        <Image src={gimg} class="px-2 py-1 rounded-md ml-20 mt-2"></Image>
                         </div>
                     </div>
                 </div>

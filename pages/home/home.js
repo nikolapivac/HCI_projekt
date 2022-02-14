@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Header from "../../components/header/header"
 import Image from 'next/image';
 import Link from "next/link";
@@ -15,6 +16,9 @@ const Home =()=>{
     return (
     <div className={styles.pagecontainer}>
     <Header/>
+    <Head>
+        <title>Home | Wizarding World of Harry Potter</title>
+    </Head>
     <div className={styles.contentwrap}>
     <div class={styles.container}>
     <Image src={Banner}

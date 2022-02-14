@@ -73,6 +73,10 @@ margin-top:2rem;
   text-decoration: none;
   color:inherit;
 }
+
+.signup a:hover{
+  color: #8b790f;
+}
 .houses{
  background-color: #0C1631; 
  padding: 3rem;
@@ -115,6 +119,10 @@ align-items: center;
 text-align: center;
 }
 
+.discover:hover{
+  color: #8b790f;
+}
+
 .color
 {
     color: #0C1631;
@@ -152,10 +160,14 @@ place-items: center start;
 }
 
 .bttn{
-    color:  #0C1631 !important;
+    color:  #0C1631;
   font-size: 20px;
   line-height:25px;
   text-align: center;
   margin: auto;
   font-family: Wizarding;
+}
+
+.bttn:hover{
+  color: #8b790f;
 }

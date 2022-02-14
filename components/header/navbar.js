@@ -44,7 +44,7 @@ const Nvbar = () => {
                 <Nav.Link href="/blog_index"><h4 className={styles.items}>Blog</h4></Nav.Link>
             </Nav>
             <Nav className={styles.items}>
-                <Nav.Link href="/"><h4 className={styles.items}>Shop</h4></Nav.Link>
+                <Nav.Link href="/shop"><h4 className={styles.items}>Shop</h4></Nav.Link>
             </Nav>
             
         </Navbar.Collapse>

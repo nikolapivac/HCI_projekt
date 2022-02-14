@@ -56,21 +56,21 @@ const Hufflepuff=()=>{
                 <div className={styles.picture}>
             <Image
             src={Lupin} class="img-fluid"  width="300px"
-            height="200px"></Image>
+            height="200px" className={styles.picture}></Image>
             </div>
             <h4 className={styles.text}>REMUS LUPIN</h4>
             </div>
             <div className="col">
             <Image
             src={Tonks} class="img-fluid"  width="300px"
-            height="200px"
+            height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>NYMPHADORA TONKS</h4>
             </div>
             <div className="col">
             <Image
             src={Sprout} class="img-fluid"  width="300px"
-            height="200px"
+            height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>POMONA SPROUT</h4>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { navigationItems } from '../../const/NavbarList';
 import styles from "./navbar.module.css"
+import "./navbar.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap';

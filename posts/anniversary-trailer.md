@@ -9,6 +9,7 @@ Many members of the cast (including your three main stars!) from the Harry Potte
 
 Now, you are most likely wondering where (and when) you can watch the show in your territory. Here’s our handy list of what we know so far.
 
+
 ### How to watch Harry Potter: Return to Hogwarts in the US
 From midnight on 1st January 2022, Harry Potter 20th Anniversary: Return to Hogwarts will be shown on HBO Max.
 

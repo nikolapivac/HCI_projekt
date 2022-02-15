@@ -14,7 +14,6 @@ import Shop4 from "../slike/shop/ron_sweater.png"
 
 const Home =()=>{
     return (
-<<<<<<< HEAD
         <div className={styles.pagecontainer}>
             <Header/>
             <Head>
@@ -29,53 +28,6 @@ const Home =()=>{
                             <Link href="/login">Sign up</Link>
                         </button>
                     </div>
-=======
-    <div className={styles.pagecontainer}>
-    <Header/>
-    <Head>
-        <title>Home | Wizarding World of Harry Potter</title>
-    </Head>
-    <div className={styles.contentwrap}>
-    <div class={styles.container}>
-    <Image src={Banner}
-    alt="Banner"
-    class={styles.banner}
-    className="img-fluid"/>
-    <div className={styles.align}>
-    <h1 class={styles.centered}>Start your Hogwarts adventure</h1>
-    <button className={styles.signup}>
-        <a href="/login">Sign up</a></button>
-    </div>
-    </div>
-    <div className={styles.houses}>
-               <div className='container-fluid'>
-                   <div className='row'>
-                       {/* {column0} */}
-                       <div className='col-5'>
-                           <Image class="img-fluid" src={FlagsImg}></Image>
-                       </div>
-                       {/* {column1} */}
-                       <div className='col'>
-                           <div className={styles.align}>
-                           <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
-                            <button className={styles.discover}>
-                                <a href="/hogwarts_houses"><h4 className={styles.bttn}>discover</h4></a></button>
-                           </div>
-                       </div>
-                       </div>
-                       </div>
-                       </div>
-    <div className={styles.shop}>
-        <div className="container-fluid">
-            <div className="row">
-                <h2 className={styles.shoptitle}>Shop in our store</h2>
-                <div className="col">
-                    <Image
-                    className="img-fluid"
-                    src={Shop1}></Image>
-                    <h5>Bellatrix Lastrange’s wand
-$30.00</h5>
->>>>>>> 78cc358e082bba57bb3537393f60e30d698f94b9
                 </div>
                 <div className={styles.houses}>
                     <div className='container-fluid'>

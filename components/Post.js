@@ -6,10 +6,10 @@ export default function Post({ post }) {
     <div className={styles.postcontainer}>
       <div className='blog'>
         <div className='row'>
-          <div className='col-5'>
+          <div className='col-md'>
             <img className={styles.blog_image} src={post.frontmatter.cover_image} class='img-fluid' alt='' />
           </div>
-          <div className='col'>
+          <div className='col-md'>
             <h3 className={styles.card_title}>{post.frontmatter.title}</h3>
             <p className={styles.card_body}>{post.frontmatter.excerpt}</p>
             <a href={`/blog/${post.slug}`} className={styles.button}>Read More</a>

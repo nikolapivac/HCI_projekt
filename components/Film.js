@@ -12,7 +12,7 @@ export default function Film({ film }) {
 <p className={styles.film_body}>{film.frontmatter.excerpt}</p> 
           </div>
           <div className='col-5'>
-            <img className={styles.film_image} src={film.frontmatter.cover_image} alt='' />
+            <img class="img fluid" className={styles.film_image} src={film.frontmatter.cover_image} alt='' />
           </div>
 
         </div>

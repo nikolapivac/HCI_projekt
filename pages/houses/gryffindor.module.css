@@ -51,3 +51,18 @@ line-height: 26px;
 border-radius: 20px;
 object-fit: cover;
 }
+
+.button{
+    text-decoration: none;
+    font-family: Wizarding;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #740001;
+    color:rgba(211, 166, 37, 1);
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.button:hover{
+    color:#8b790f;
+}

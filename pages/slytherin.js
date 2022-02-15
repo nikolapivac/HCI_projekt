@@ -82,7 +82,7 @@ const Slytherin=()=>{
         </div>
 
     </div>
-
+    <a href={`/hogwarts_houses`} className={styles.button}>Back To Houses</a>
 </div>
 
 <Footer/>

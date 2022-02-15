@@ -8,20 +8,16 @@ export default function Experience({ experience }) {
 
            {/* <div className={styles.expcontainer}> */}
     {/* </div> */} 
-      <div className='container fluid' position="relative">
-    <Image className="img-fluid"
+      <div className='container fluid relative g-0 '>
+    <Image className="img-fluid opacity-50"
     src={experience.frontmatter.cover_image}
     alt=''
+    sizes="100%"
     layout="fill"
-    // width="100%"
-    // height="100%"
-    objectFit='contain'
-    z-index="-1"
-    // overflow="hidden"
-    objectPosition='center'
+    object-fit="cover"
      />
-        <div className='row '>
-          <div className='col'>
+        <div className='row p-0'>
+          <div className='col-7'>
           <div className={styles.expcontainer}>
              <h3 className={styles.exp_title}>{experience.frontmatter.title}</h3>
     	          <div className={styles.text_container}>
@@ -29,8 +25,8 @@ export default function Experience({ experience }) {
       </div>
           </div>
         </div>
-        <div className='col'>
- <img className={styles.exp_map} src={experience.frontmatter.map} alt='' />
+        <div className='col-5 relative'>
+ <img  className={styles.exp_map} src={experience.frontmatter.map} alt='' />
 
         </div>
 

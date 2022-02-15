@@ -61,3 +61,23 @@ background-position: center;
     margin:5rem;
     margin-top: 11rem;
 }
+
+@media (max-width: 820px){
+    .exp_title{
+        font-size: 35px;
+    }
+
+    .exp_body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    .exp_title{
+        font-size: 20px;
+    }
+
+    .exp_body{
+        font-size: 7px;
+    }
+}

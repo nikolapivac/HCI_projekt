@@ -19,21 +19,21 @@ const HousesIndex=()=>{
 <div className={styles.background}>
     <div className="container-fluid">
         <div className="row">
-            <div className="col">
+            <div className="col-md-3">
                 <Image src={Gryffindor} className="img-resposive" class={styles.pic}></Image>
                <a className={styles.text} href="/gryffindor"><h2>Gryffindor</h2></a>
                </div>
-            <div className="col">
+            <div className="col-md-3">
                 <Image src={Ravenclaw} className="img-resposive" class={styles.pic}></Image>
                <a className={styles.text} href="/ravenclaw"><h2>Ravenclaw</h2></a>
 
             </div>
-            <div className="col">
+            <div className="col-md-3">
                 <Image src={Hufflepuf} className="img-resposive" class={styles.pic}></Image>
                 <a className={styles.text} href="/hufflepuff"><h2>Hufflepuff</h2></a>
 
             </div>
-            <div className="col">
+            <div className="col-md-3">
                 <Image src={Slytherin}className="img-resposive" class={styles.pic}></Image>
                 <a className={styles.text} href="/slytherin"><h2>Slytherin</h2></a>
 

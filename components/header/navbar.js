@@ -1,30 +1,17 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from "./navbar.module.css"
 import "./navbar.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import {Nav, Navbar} from 'react-bootstrap';
 
 const Nvbar = () => {
     return (
-        // <nav
-        //     className={styles.nav}
-        // >
-        //     {navigationItems.map((item) => (
-        //         <li
-        //             key={item}
-        //             className={styles.Nav_items}
-        //         >
-        //             {item}
-        //         </li>
-        //     ))}
-        // </nav>
         <> 
-        <Navbar sticky="top" expand="sm" collapseOnSelect className={styles.nvbar}>
+        <Navbar sticky="top" expand="md" collapseOnSelect className={styles.nvbar}>
 
-        <Navbar.Toggle/>
-        <Navbar.Collapse>
+        <Navbar.Toggle />
+        <Navbar.Collapse >
 
 
             <Nav >
@@ -50,6 +37,7 @@ const Nvbar = () => {
         </Navbar.Collapse>
 
         </Navbar>
+        
 </>
 );
 

@@ -58,7 +58,7 @@ const Home =()=>{
                                 <Image className="img-fluid" src={Shop1}></Image>
                                 <h5>Bellatrix Lastrange’s wand $30.00</h5>
                             </div>
-                            <div className="col">
+                            <div className="col ">
                                 <Image className="img-fluid" src={Shop2}></Image>
                                 <h5>Chocolate Frog $10.00</h5>
                             </div>

@@ -33,11 +33,11 @@ const Home =()=>{
                     <div className='container-fluid'>
                         <div className='row'>
                             {/* {column0} */}
-                            <div className='col-5'>
+                            <div className='col-md-5'>
                                 <Image class="img-fluid" src={FlagsImg}></Image>
                             </div>
                             {/* {column1} */}
-                            <div className='col'>
+                            <div className='col-md'>
                                 <div className={styles.align}>
                                     <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
                                     <button className={styles.discover}>

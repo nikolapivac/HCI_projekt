@@ -11,10 +11,8 @@ src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 width: 100%;
 height: auto;
 left: 0px;
-/* top: calc(25vh + 5em); */
 position: absolute;
 background-position: center;
-/* z-index: -1; */
 }
 
 .paigecontainer
@@ -46,7 +44,6 @@ text-align: center;
 font-family: HarryP;
 color: #D3BA32;
 background-color: #0C1631;
-/* background-image: url(./banner.png); */
 }
 
 .signup{
@@ -84,22 +81,7 @@ margin-top:2rem;
  bottom: 0;
  width:100%;
 }
-.row{
-     display: inline-flex;
-  /* align-items items in column */
-  flex-direction: column;
-  /* center items horizontally */
-  align-items: center;
-  /* center items vertically */
-  justify-content: center;
-}
-/* .flagstext{
-font-family:Wizarding;
-font-size: 15px;
-line-height: 19px;
-color: #0C1631;
-text-align: center;
-} */
+
 .flagsnaslov{
 text-align: center;
 font-family: HarryP;
@@ -130,7 +112,6 @@ text-align: center;
 .color
 {
     color: #0C1631;
-    /* color:#D3BA32; */
 
 }
 
@@ -182,3 +163,9 @@ place-items: center start;
   left: 0; 
 };
 
+@media (max-width: 415px)
+{
+.centered{
+      font-size: 45px !important;
+    }
+}

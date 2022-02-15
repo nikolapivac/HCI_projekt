@@ -136,3 +136,13 @@ margin: auto;
 .bttn:hover{
   color:#8b790f;
 }
+
+@media (max-width: 500px){
+  .naslov1{
+      font-size: 20px;
+    }
+    .naslov2{
+      font-size: 45px;
+      line-height: 10px; 
+    }
+}

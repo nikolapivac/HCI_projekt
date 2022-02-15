@@ -40,6 +40,9 @@ export default function Shop(){
                     <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Sweets')}>Sweets</button>
                     <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Props')}>Props</button>
                     <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Wands')}>Wands</button>
+                    <span className="p-3 ml-10">
+                        <button className="mb-3 hover:text-hov_yellow" onClick={()=>setData(Categories)}>All products</button>
+                    </span>
                 </div>
                 <div className="w-6 h-6">
                     <Image src={Cart}/>

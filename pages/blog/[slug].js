@@ -35,6 +35,7 @@ export default function PostPage({
       <div class="row">
         <div className={styles.post_body}>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <a href={`/blog_index`} className={styles.button}>Back To Blog</a> 
         </div>
       </div>
       </div>

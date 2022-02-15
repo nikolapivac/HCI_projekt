@@ -18,6 +18,7 @@ const Hufflepuff=()=>{
 </Head>
 <div className={styles.background}>
     <div className="container-fluid">
+        <a href={`/hogwarts_houses`} className={styles.button}>Back To Houses</a>
         <h1 className={styles.title}>Hufflepuff</h1>
     <div className="row">
         <div className="col-4">
@@ -82,7 +83,7 @@ const Hufflepuff=()=>{
         </div>
 
     </div>
-
+    
 </div>
 
 <Footer/>

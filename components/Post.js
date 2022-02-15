@@ -6,20 +6,15 @@ export default function Post({ post }) {
     <div className={styles.postcontainer}>
       <div className='blog'>
         <div className='row'>
-        <div className='col-5'>
-<img className={styles.blog_image} src={post.frontmatter.cover_image} class='img-fluid' alt='' />
+          <div className='col-5'>
+            <img className={styles.blog_image} src={post.frontmatter.cover_image} class='img-fluid' alt='' />
+          </div>
+          <div className='col'>
+            <h3 className={styles.card_title}>{post.frontmatter.title}</h3>
+            <p className={styles.card_body}>{post.frontmatter.excerpt}</p>
+            <a href={`/blog/${post.slug}`} className={styles.button}>Read More</a>
+          </div>
         </div>
-        <div className='col'>
-<h3 className={styles.card_title}>{post.frontmatter.title}</h3>
-
-<p className={styles.card_body}>{post.frontmatter.excerpt}</p>
-<Link href={`/blog/${post.slug}`}>
-  <a className={styles.button}>Read More</a>
-</Link>
-        </div>
-
-        </div>
-
       </div>
     </div>
   )

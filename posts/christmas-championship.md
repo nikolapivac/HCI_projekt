@@ -11,9 +11,12 @@ Yes, our quiz runs concurrently with the new televised quiz special, Harry Potte
 
 Each round will be longer as we go through, meaning more points can be accumulated along the way! You’ll need knowledge of Harry Potter, Cursed Child and the Fantastic Beasts films during these quizzes – so make sure you’ve done your studying. And as you can imagine, they will be ascending in difficulty to really give your magical minds a thorough workout.
 
-Here’s all you need to get started.
+### Here’s all you need to get started:
 
-1. Log in or register with us to get sorted into your Hogwarts house
-2. Represent your house in the latest round of the Quiz Championship – you can also play previous rounds you may have missed
-3. Your score (on your first attempt) will be added to your Hogwarts house’s total
-4. Complete all three rounds to help your house compete for victory
+1.Log in or register with us to get sorted into your Hogwarts house
+
+2.Represent your house in the latest round of the Quiz Championship – you can also play previous rounds you may have missed
+
+3.Your score (on your first attempt) will be added to your Hogwarts house’s total
+
+4.Complete all three rounds to help your house compete for victory

@@ -78,3 +78,35 @@ position: relative;
 .button:hover{
     color:#8b790f;
 }
+
+@media (max-width: 830px){
+    .card_title{
+        font-size: 30px;
+    }
+
+    .card_body{
+        font-size: 12px;
+    }
+    .post_title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .card_title{
+        font-size: 25px;
+    }
+
+    .card_body{
+        font-size: 12px;
+    }
+    .post_title{
+        font-size: 25px;
+    }
+    .post_date{
+        font-size: 10px;
+    }
+    .post_body{
+        font-size: 15px;
+    }
+}

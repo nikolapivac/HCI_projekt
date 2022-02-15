@@ -20,6 +20,7 @@ const Gryffindor=()=>{
 </Head>
 <div className={styles.background}>
     <div className="container-fluid">
+        <a href={`/hogwarts_houses`} className={styles.button}>Back To Houses</a>
         <h1 className={styles.title}>Gryffindor</h1>
     <div className="row">
         <div className="col-4">
@@ -87,12 +88,13 @@ const Gryffindor=()=>{
             className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Minerva McGonagall</h4>
+            
             </div>
 
         </div>
 
     </div>
-<a href={`/hogwarts_houses`} className={styles.button}>Back To Houses</a>
+
 </div>
 
 <Footer/>

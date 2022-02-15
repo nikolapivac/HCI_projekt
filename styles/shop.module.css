@@ -1,16 +1,15 @@
-.productgrid{
-    padding-bottom: 20px;
-    padding-top:20px;
-    width:60px;
-    height:30px;
-    font-size: 10px;
+@font-face {
+font-family: "Wizarding";
+src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
 
-.productgrid:hover{
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2) 0 6px 20px rgba(0,0,0,19);
-}
 .overlay{
     position: absolute;
     top: 0;
     bottom: 0;
+}
+
+.producttext{
+font-family: Wizarding;
+color: #D3BA32;
 }

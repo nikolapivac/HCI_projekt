@@ -12,9 +12,8 @@
     
 }
 .expcontainer {
-    background-color: #0C1631;
-    display:block;
-
+background-color: #0C1631;
+display:block;
 }
 
 
@@ -27,7 +26,6 @@ left: 0px;
 top: calc(25vh + 5em);
 position: absolute;
 background-position: center;
-z-index: -1;
     
 }
 

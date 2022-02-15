@@ -7,6 +7,7 @@ import Footer from '../components/footer/footer'
 import Banner from '../public/images/shop/banner.jpg'
 import Cart from '../public/images/shop/carticon.png'
 import styles from "/styles/shop.module.css"
+import "/styles/shop.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Shop(){
@@ -27,8 +28,11 @@ export default function Shop(){
             <Header />
             <Image src={Banner}/>
             <div className="text-6xl text-text_yellow font-HarryP">Get the new Harry Potter merchandise</div>
-
-            <div className="w-64 h-96 bg-text_yellow text-hp_blue font-Wizarding text-xl">
+            <div ></div>
+            <div className='container-fluid g-0'>
+            <div className='row'>
+            <div className='col-3'>
+            <div className="w-64 h-96 bg-text_yellow text-hp_blue font-Wizarding text-xl ">
                 <h1 className="p-4">Products</h1>
                 
                 <div className="flex flex-col">
@@ -44,25 +48,30 @@ export default function Shop(){
                 
             </div>
 
+            </div>
+            <div className='col'>
             <div>
-                <div className='container-fluid'>
-                    <div className='row'>
+                <div className='container-fluid g-0'>
+                    <div className='row '>
                 {data.map((product)=>(
-                        <div className={styles.product_grid}>
-                        <div class='.col-4 '>  
-                        <img src={product.image} class="img-fluid" width="200px" height="200px"/>
-                        </div> 
+                    // <div className={styles.product_grid}>
+                    <>
+                        <div class='col-4 '>  
+                        <img src={product.image} class="img-fluid" />
                         
-                            <h4>{product.name}</h4>
-                            <h4 >{product.price}</h4>
+                            <h4 className={styles.producttext}>{product.name}</h4>
+                            <h4 className={styles.producttext}>{product.price}</h4>
                         
                         <button className="p-1 rounded-md bg-text_yellow text-hp_blue">Add To Cart</button>
                     
-                        <div class='.col-4 '>
-                        </div>
+                        </div> 
+                        </>
                 
-                </div>
+                // </div>
                 ))}
+                </div>
+                </div>
+                </div>
                 </div>
                 </div>
                 </div>

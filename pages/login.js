@@ -37,7 +37,7 @@ export default function LoginPage() {
 
                         <button className={styles.button}>Sign Up</button>   
                     </div>
-<h2 className={styles.line}></h2>
+                    <h2 className={styles.line}></h2>
                     <div className={styles.login}>
                         <h2 className={styles.already}>Already have an account?</h2>
 
@@ -52,9 +52,10 @@ export default function LoginPage() {
                         <h4 className={styles.forgot}>Forgot your password?</h4>
 
                         <button className={styles.button}>Login</button>
-                        <div className={styles.gimg}>
-                        <Image src={gimg} class="px-2 py-1 rounded-md ml-20 mt-2 hover:cursor-pointer"></Image>
+                        <div className={styles.gimagecont}>
+                            <Image src={gimg} className={styles.gimage}></Image>
                         </div>
+                        
                     </div>
                 </div>
             </main>

@@ -23,7 +23,7 @@ const Footer=()=>{
                            <Image  class="img-fluid" src={Footerimg}></Image>
                        </div>
                        {/* {column1} */}
-                       <div className='col'>
+                       <div className='col-4'>
                            <h4 className={styles.footerTitle}>Wizarding world of Harry Potter</h4>
                            <ui  className={styles.footertext}>
                                <li>About us</li>
@@ -34,12 +34,9 @@ const Footer=()=>{
                        </div>
                        {/* {column2} */}
                        <div className='col-4'>
-                           <h4 className={styles.footertext}> © WIZARDING WORLD DIGITAL 2022</h4>
-                           <h5 className={styles.footertext}>
-Brought to you by Wizarding World Digital, a partnership between Warner Bros. and Pottermore. Delivering the latest news and official products from the Wizarding World and our partners.
-
-  
-                           </h5>
+                           <h4 className={styles.footercred}> © WIZARDING WORLD DIGITAL 2022</h4>
+                           <h5 className={styles.footercred}>
+                                Brought to you by Wizarding World Digital, a partnership between Warner Bros. and Pottermore. Delivering the latest news and official products from the Wizarding World and our partners.</h5>
                        </div>
                    </div>
                </div>

@@ -42,6 +42,19 @@ list-style-type: none;
 color: #D3BA32;
 }
 
+.footertext li:hover{
+    cursor: pointer;
+    color: #8b790f;
+}
+
+.footercred{
+    font-family: Wizarding;
+    font-size: 15px;
+    line-height: 25px;
+    list-style-type: none;
+    color: #D3BA32;
+}
+
 .mainfooter{
  background-color: #0C1631; 
  padding-top: 2rem;
@@ -57,3 +70,33 @@ color: #D3BA32;
     background-color: #0C1631; 
 }
 
+@media (max-width: 720px){
+    .footerTitle{
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .footertext{
+        font-size: 10px;
+        font-height: 15px;
+    }
+    .footercred{
+        font-size:10px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 440px){
+    .footerTitle{
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 30px;
+    }
+    .footertext{
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .footercred{
+        font-size:7px;
+        line-height: 10px;
+    }
+}

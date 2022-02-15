@@ -31,7 +31,7 @@ const Gryffindor=()=>{
             height="300px"
             ></Image>
         </div>
-        <div className="col-2">
+        <div className="col">
             <ui className={styles.text2}>
                 <li>founder:</li>
                 <li>house colors:</li>
@@ -47,7 +47,7 @@ const Gryffindor=()=>{
                 <li>scarlet and gold</li>
                 <li>lion</li>
                 <li>fire</li>
-                <li>courage, bravery, determination</li>
+                <li>courage, bravery</li>
                 <li>minerva mcgonagall</li>
             </ui>
         </div>

@@ -29,7 +29,7 @@ const Ravenclaw=()=>{
             height="300px"
             ></Image>
         </div>
-        <div className="col-2">
+        <div className="col">
             <ui className={styles.text2}>
                 <li>founder:</li>
                 <li>house colors:</li>
@@ -45,7 +45,7 @@ const Ravenclaw=()=>{
                 <li>blue and bronze</li>
                 <li>eagle</li>
                 <li>air</li>
-                <li>wit, learning, wisdom</li>
+                <li>wit, wisdom</li>
                 <li>filius flitwick</li>
             </ui>
         </div>
@@ -63,7 +63,7 @@ const Ravenclaw=()=>{
             src={Luna} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
-            <h4 className={styles.text}>LUNA LOVEGOOD</h4>
+            <h4 className={styles.text}>Luna Lovegood</h4>
             </div>
             <div className="col">
             <Image

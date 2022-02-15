@@ -29,7 +29,7 @@ const Slytherin=()=>{
             height="300px"
             ></Image>
         </div>
-        <div className="col-2">
+        <div className="col">
             <ui className={styles.text2}>
                 <li>founder:</li>
                 <li>house colors:</li>
@@ -45,7 +45,7 @@ const Slytherin=()=>{
                 <li>green and silver</li>
                 <li>serpent</li>
                 <li>water</li>
-                <li>determination, pride, ambition</li>
+                <li>pride, ambition</li>
                 <li>horace slughorn</li>
             </ui>
         </div>
@@ -63,21 +63,21 @@ const Slytherin=()=>{
             src={MalfoyFamily} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
-            <h4 className={styles.text}>MALFOY FAMILY</h4>
+            <h4 className={styles.text}>The Malfoy Family</h4>
             </div>
             <div className="col">
             <Image
             src={Snape} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}
             ></Image>
-            <h4 className={styles.text}>SEVERUS SNAPE</h4>
+            <h4 className={styles.text}>Severus Snape</h4>
             </div>
             <div className="col">
             <Image
             src={Voldemort} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}
             ></Image>
-            <h4 className={styles.text}>TOM RIDDLE/ LORD VOLDEMORT</h4>
+            <h4 className={styles.text}>Tom Riddle/Lord Voldemort</h4>
             </div>
 
         </div>

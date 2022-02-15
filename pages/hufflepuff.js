@@ -29,7 +29,7 @@ const Hufflepuff=()=>{
             height="300px"
             ></Image>
         </div>
-        <div className="col-2">
+        <div className="col">
             <ui className={styles.text2}>
                 <li>Founder:</li>
                 <li>House colors:</li>
@@ -45,7 +45,7 @@ const Hufflepuff=()=>{
                 <li>Yellow and black</li>
                 <li>Badger</li>
                 <li>Earth</li>
-                <li>Patience, fairness, loaylty</li>
+                <li>Patience, fairness</li>
                 <li>Pomona sprout</li>
             </ui>
         </div>
@@ -63,21 +63,21 @@ const Hufflepuff=()=>{
             src={Lupin} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
-            <h4 className={styles.text}>REMUS LUPIN</h4>
+            <h4 className={styles.text}>Remus Lupin</h4>
             </div>
             <div className="col">
             <Image
             src={Tonks} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}
             ></Image>
-            <h4 className={styles.text}>NYMPHADORA TONKS</h4>
+            <h4 className={styles.text}>Nymphadora Tonks</h4>
             </div>
             <div className="col">
             <Image
             src={Sprout} class="img-fluid"  width="300px"
             height="200px" className={styles.picture}
             ></Image>
-            <h4 className={styles.text}>POMONA SPROUT</h4>
+            <h4 className={styles.text}>Pomona Sprout</h4>
             </div>
 
         </div>

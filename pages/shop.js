@@ -27,26 +27,26 @@ export default function Shop(){
             </Head>
             <Header />
             <Image src={Banner}/>
-            <div className="text-6xl text-text_yellow font-HarryP">Get the new Harry Potter merchandise</div>
+            <div className={styles.banner_text}>Get the new Harry Potter merchandise</div>
             <div ></div>
             <div className='container-fluid g-0'>
             <div className='row'>
             <div className='col-3'>
-            <div className="w-64 h-96 bg-text_yellow text-hp_blue font-Wizarding text-xl ">
+            <div className={styles.menu_container}>
                 <h1 className="p-4">Products</h1>
                 
-                <div className="flex flex-col">
-                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Clothes')}>Clothes</button>
-                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Sweets')}>Sweets</button>
-                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Props')}>Props</button>
-                    <button className="mb-3 hover:text-hov_yellow" onClick={()=>filterResult('Wands')}>Wands</button>
-                    <span className="p-3 ml-10">
-                        <button className="mb-3 hover:text-hov_yellow" onClick={()=>setData(Categories)}>All products</button>
+                <div className={styles.menu_buttons_container}>
+                    <button className={styles.menu_buttons} onClick={()=>filterResult('Clothes')}>Clothes</button>
+                    <button className={styles.menu_buttons} onClick={()=>filterResult('Sweets')}>Sweets</button>
+                    <button className={styles.menu_buttons} onClick={()=>filterResult('Props')}>Props</button>
+                    <button className={styles.menu_buttons} onClick={()=>filterResult('Wands')}>Wands</button>
+                    <span className={styles.allbutton_container}>
+                        <button className={styles.menu_buttons} onClick={()=>setData(Categories)}>All products</button>
                     </span>
                 </div>
-                <div className="w-6 h-6">
+                <div className={styles.cart_container}>
                     <Image src={Cart}/>
-                    <button className="border-2 border-hp_blue rounded-md text-justify hover:text-hov_yellow">Go To Cart</button>
+                    <button className={styles.gtc_button}>Go To Cart</button>
                 </div>
                 
             </div>
@@ -73,7 +73,7 @@ export default function Shop(){
                         </div>
                         <div class="row">
                             <h4 className={styles.producttext}>{product.price}</h4>
-                        <button className="p-1 rounded-md bg-text_yellow text-hp_blue">Add To Cart</button>
+                        <button className={styles.atc_button}>Add To Cart</button>
                         </div>
                         </div>
                     

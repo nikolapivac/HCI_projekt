@@ -2,6 +2,10 @@
 font-family: "Wizarding";
 src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
+@font-face {
+    font-family: "HarryP";
+    src:url("../fonts/HARRYP__.TTF") format("truetype");
+}
 
 .overlay{
     position: absolute;
@@ -19,6 +23,77 @@ src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 .producttext{
 font-family: Wizarding;
 color: #D3BA32;
+}
+
+.menu_container{
+    width: 256px;
+    height: 398px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(211 186 50 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(12 22 49 / var(--tw-text-opacity));
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Wizarding;
+}
+
+.menu_buttons_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_buttons{
+    margin-bottom: 0.75rem/* 12px */;
+}
+.menu_buttons:hover{
+    --tw-text-opacity: 1;
+    color: rgb(139 121 15 / var(--tw-text-opacity));
+}
+
+.allbutton_container{
+    padding: 0.75rem/* 12px */;
+    margin-left: 2.5rem/* 40px */;
+}
+
+.gtc_button{
+    border-width: 2px;
+    padding: 3px;
+    --tw-border-opacity: 1;
+    border-color: rgb(12 22 49 / var(--tw-border-opacity));
+    border-radius: 0.375rem/* 6px */;
+    text-align: justify;
+    white-space: nowrap;
+}
+.gtc_button:hover{
+    --tw-text-opacity: 1;
+    color: rgb(139 121 15 / var(--tw-text-opacity));
+}
+
+.cart_container{
+    width: 1.5rem/* 24px */;
+    height: 1.5rem/* 24px */;
+}
+
+.banner_text{
+    font-size: 60px;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(211 186 50 / var(--tw-text-opacity));
+    font-family: HarryP;
+}
+
+.atc_button{
+    padding: 4px;
+    border-radius: 0.375rem/* 6px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(211 186 50 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(12 22 49 / var(--tw-text-opacity));
+    font-family: Wizarding;
+}
+.atc_button:hover{
+    --tw-text-opacity: 1;
+    color: rgb(139 121 15 / var(--tw-text-opacity));
 }
 
 @media (max-width:420px)

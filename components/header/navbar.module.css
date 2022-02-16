@@ -64,6 +64,7 @@ color: inherit;
   color: #8b790f;
 }
 
+
 .naslov1{
 font-family: Wizarding;
 color: #D3BA32;
@@ -110,6 +111,13 @@ text-decoration: none;
   color:#8b790f;
 }
 
+@media(max-width:650px)
+{
+  .toggle{
+    margin-left: 7rem;
+  }
+
+}
 @media (max-width: 500px){
   .naslov1{
       font-size: 20px;
@@ -124,4 +132,6 @@ text-decoration: none;
     width: 60px;
     height: 20px;
   }
+
+
 }

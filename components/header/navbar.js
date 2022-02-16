@@ -9,6 +9,7 @@ const Nvbar = () => {
     return (
         <> 
         <Navbar sticky="top" expand="md" collapseOnSelect className={styles.nvbar}>
+        <div className={styles.toggle}>
 
         <Navbar.Toggle />
         <Navbar.Collapse >
@@ -36,6 +37,7 @@ const Nvbar = () => {
             
         </Navbar.Collapse>
 
+        </div>
         </Navbar>
         
 </>

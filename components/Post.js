@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import styles from '../pages/blog/blogpost.module.css'
 
 export default function Post({ post }) {

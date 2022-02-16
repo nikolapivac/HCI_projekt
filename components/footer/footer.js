@@ -20,7 +20,7 @@ const Footer=()=>{
                    <div className='row'>
                        {/* {column0} */}
                        <div className='col-4'>
-                           <Image  class="img-fluid" src={Footerimg}></Image>
+                           <Image  className="img-fluid" src={Footerimg}></Image>
                        </div>
                        {/* {column1} */}
                        <div className='col-4'>

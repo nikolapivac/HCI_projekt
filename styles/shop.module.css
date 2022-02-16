@@ -9,7 +9,19 @@ src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
     bottom: 0;
 }
 
+.box{
+    height:50px;
+}
+.picture{
+    width:303px;
+    height:319px;
+}
 .producttext{
 font-family: Wizarding;
 color: #D3BA32;
+}
+
+@media (max-width:420px)
+{
+
 }

@@ -105,4 +105,7 @@ position: relative;
     .post_body{
         font-size: 15px;
     }
+    .postcontainer{
+        padding: 1rem;
+    }
 }

@@ -55,19 +55,19 @@ const Home =()=>{
                         <div className="row">
                             <h2 className={styles.shoptitle}>Shop in our store</h2>
                             <div className="col">
-                                <Image className="img-fluid" src={Shop1}></Image>
+                                <Image className="img-fluid" src={Shop1} ></Image>
                                 <h5>Bellatrix Lastrange’s wand $30.00</h5>
                             </div>
                             <div className="col ">
-                                <Image className="img-fluid" src={Shop2}></Image>
+                                <Image className="img-fluid" src={Shop2} ></Image>
                                 <h5>Chocolate Frog $10.00</h5>
                             </div>
                             <div className="col">
-                                <Image className="img-fluid" src={Shop3}></Image>
+                                <Image className="img-fluid" src={Shop3} ></Image>
                                 <h5>Marauder’s Map replica $20.00</h5>
                             </div>
                             <div className="col">
-                                <Image className="img-fluid" src={Shop4}></Image>
+                                <Image className="img-fluid" src={Shop4} ></Image>
                                 <h5>“R” knitted sweater $50.00</h5>
                             </div>
                         </div>

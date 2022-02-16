@@ -24,4 +24,15 @@ color: #D3BA32;
 @media (max-width:420px)
 {
 
+    .picture{
+        width:179px;
+        height:194px;
+    }
+
+    .producttext{
+        font-size: 20px !important ;
+    }
+    .box{
+        height:30px;
+    }
 }

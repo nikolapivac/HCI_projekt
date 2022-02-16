@@ -26,7 +26,6 @@ const Gryffindor=()=>{
         <div className="col-4">
             <Image
             src={Gcrest}
-            className="img-fluid"
             width= "300px"
             height="300px"
             ></Image>

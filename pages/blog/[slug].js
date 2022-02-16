@@ -22,7 +22,7 @@ export default function PostPage({
       <div className="row">
         {/* <div className={styles.container}> */}
           <div className='col-6 gx-0'>
-        <img className={styles.blog_image} className="img-fluid" src={cover_image} alt='' />  
+        <img  object-fit="cover" max-width="100%"  height="auto" src={cover_image} alt='' />  
           </div>
           <div className='col-6'>
         <h4 className={styles.post_title}>{title}</h4>

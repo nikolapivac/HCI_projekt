@@ -21,7 +21,7 @@ const Home =()=>{
             </Head>
             <div className={styles.contentwrap}>
                 <div className={styles.container}>
-                    <Image src={Banner} alt="Banner" className={styles.banner} className="img-fluid"/>
+                    <Image src={Banner} alt="Banner" className={styles.banner} />
                     <div className={styles.align}>
                         <h1 className={styles.centered}>Start your Hogwarts adventure</h1>
                         <button className={styles.signup}>

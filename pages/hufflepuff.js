@@ -24,7 +24,6 @@ const Hufflepuff=()=>{
         <div className="col-4">
             <Image
             src={Hcrest}
-            class="img-fluid"
             width= "300px"
             height="300px"
             ></Image>

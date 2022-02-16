@@ -6,7 +6,7 @@ export default function Post({ post }) {
       <div className='blog'>
         <div className='row'>
           <div className='col-md'>
-            <img className={styles.blog_image} src={post.frontmatter.cover_image} class='img-fluid' alt='' />
+            <img className={styles.blog_image} src={post.frontmatter.cover_image} alt='' />
           </div>
           <div className='col-md'>
             <h3 className={styles.card_title}>{post.frontmatter.title}</h3>

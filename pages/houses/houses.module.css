@@ -5,6 +5,8 @@ src:url("../../fonts/HARRYP__.TTF") format("truetype");
 .pic{
     border-radius: 30px;
     object-fit: cover;
+    max-width:100%  ;
+    height:auto;
 }
 .pic:hover{
   cursor:pointer;

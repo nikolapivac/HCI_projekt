@@ -24,7 +24,6 @@ const Ravenclaw=()=>{
         <div className="col-4">
             <Image
             src={Rcrest}
-            class="img-fluid"
             width= "300px"
             height="300px"
             ></Image>

@@ -24,7 +24,6 @@ const Slytherin=()=>{
         <div className="col-4">
             <Image
             src={Screst}
-            class="img-fluid"
             width= "300px"
             height="300px"
             ></Image>

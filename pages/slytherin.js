@@ -53,27 +53,27 @@ const Slytherin=()=>{
     </div>
 </div>
 <div className={styles.background}>
-    <div className="container-fluid" className={styles.background}>
+    <div className="container-fluid" >
         <div className="row">
             <h4 className={styles.title2}>Notable members</h4>
             <div className="col">
                 <div className={styles.picture}>
             <Image
-            src={MalfoyFamily} class="img-fluid"  width="300px"
+            src={MalfoyFamily}   width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
             <h4 className={styles.text}>The Malfoy Family</h4>
             </div>
             <div className="col">
             <Image
-            src={Snape} class="img-fluid"  width="300px"
+            src={Snape} width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Severus Snape</h4>
             </div>
             <div className="col">
             <Image
-            src={Voldemort} class="img-fluid"  width="300px"
+            src={Voldemort}  width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Tom Riddle/Lord Voldemort</h4>

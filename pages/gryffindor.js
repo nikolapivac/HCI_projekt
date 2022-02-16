@@ -55,13 +55,12 @@ const Gryffindor=()=>{
     </div>
 </div>
 <div className={styles.background}>
-    <div className="container-fluid" className={styles.background}>
+    <div className="container-fluid" >
         <div className="row">
             <h4 className={styles.title2}>Notable members</h4>
             <div className="col">
             <Image
-            src={Trio} 
-            class="img-fluid"
+            src={Trio}
             width="300px"
             height="200px"
             className={styles.picture}
@@ -71,7 +70,6 @@ const Gryffindor=()=>{
             <div className="col">
             <Image
             src={Albus} 
-            class="img-fluid"
              width="300px"
             height="200px" 
             className={styles.picture}
@@ -81,7 +79,6 @@ const Gryffindor=()=>{
             <div className="col">
             <Image
             src={Minerva} 
-            class="img-fluid" 
              width="300px"
             height="200px"
             className={styles.picture}

@@ -62,7 +62,7 @@ export default function Shop(){
                         <div className="row">
                         <div className="row">
                         <div className={styles.picture}>
-                            <img src={product.image} class="img-fluid" />
+                            <img src={product.image} className="img-fluid" />
                         </div>
                         </div>
                         <div className={styles.box}>

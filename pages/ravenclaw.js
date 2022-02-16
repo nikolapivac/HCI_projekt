@@ -53,27 +53,27 @@ const Ravenclaw=()=>{
     </div>
 </div>
 <div className={styles.background}>
-    <div className="container-fluid" className={styles.background}>
+    <div className="container-fluid" >
         <div className="row">
             <h4 className={styles.title2}>Notable members</h4>
             <div className="col">
                 <div className={styles.picture}>
             <Image
-            src={Luna} class="img-fluid"  width="300px"
+            src={Luna}   width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
             <h4 className={styles.text}>Luna Lovegood</h4>
             </div>
             <div className="col">
             <Image
-            src={Ollivander} class="img-fluid"  width="300px"
+            src={Ollivander}  width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Garrick Ollivander</h4>
             </div>
             <div className="col">
             <Image
-            src={Filius} class="img-fluid"  width="300px"
+            src={Filius}   width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Filius Flitwick</h4>

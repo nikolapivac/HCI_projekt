@@ -53,27 +53,27 @@ const Hufflepuff=()=>{
     </div>
 </div>
 <div className={styles.background}>
-    <div className="container-fluid" className={styles.background}>
+    <div className="container-fluid" >
         <div className="row">
             <h4 className={styles.title2}>Notable members</h4>
             <div className="col">
                 <div className={styles.picture}>
             <Image
-            src={Lupin} class="img-fluid"  width="300px"
+            src={Lupin}   width="300px"
             height="200px" className={styles.picture}></Image>
             </div>
             <h4 className={styles.text}>Remus Lupin</h4>
             </div>
             <div className="col">
             <Image
-            src={Tonks} class="img-fluid"  width="300px"
+            src={Tonks}   width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Nymphadora Tonks</h4>
             </div>
             <div className="col">
             <Image
-            src={Sprout} class="img-fluid"  width="300px"
+            src={Sprout}  width="300px"
             height="200px" className={styles.picture}
             ></Image>
             <h4 className={styles.text}>Pomona Sprout</h4>

@@ -109,9 +109,15 @@ margin: auto;
 @media (max-width: 500px){
   .naslov1{
       font-size: 20px;
+      line-height: 40px;
     }
-    .naslov2{
-      font-size: 45px;
-      line-height: 10px; 
-    }
+  .naslov2{
+    font-size: 45px;
+    line-height: 10px; 
+  }
+
+  .log_in{
+    width: 60px;
+    height: 20px;
+  }
 }

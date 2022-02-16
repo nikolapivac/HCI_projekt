@@ -158,15 +158,23 @@ place-items: center start;
   color: #8b790f;
 }
 
-.window.scroll{
+/*.window.scroll{
   top: 0; 
   left: 0; 
-};
+};*/
 
 @media (max-width: 800px)
 {
-.centered{
-      font-size: 45px !important;
-    }
-
+  .centered{
+    height: 100px;
+    font-size: 35px !important;
   }
+
+  .flagsnaslov{
+    font-size: 50px;
+  }
+
+  .shoptitle{
+    font-size: 45px;
+  }
+}

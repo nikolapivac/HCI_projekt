@@ -23,7 +23,7 @@ const Home =()=>{
                 <div class={styles.container}>
                     <Image src={Banner} alt="Banner" class={styles.banner} className="img-fluid"/>
                     <div className={styles.align}>
-                        <h1 class={styles.centered}>Start your Hogwarts adventure</h1>
+                        <h1 className={styles.centered}>Start your Hogwarts adventure</h1>
                         <button className={styles.signup}>
                             <Link href="/login">Sign up</Link>
                         </button>

@@ -19,7 +19,7 @@ const Header =()=>{
             <div className={styles.title}>
 
         <div className={styles.title}> 
-        <h1 className={styles.naslov1}>the wizarding world of</h1>
+        <h1 className={styles.naslov1}>The Wizarding World of</h1>
         <h2 className={styles.naslov2}>Harry Potter</h2>
             </div>
         <Nvbar/>

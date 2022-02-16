@@ -18,10 +18,10 @@ const Header =()=>{
             </button>
             <div className={styles.title}>
 
-        <div className={styles.title}> 
-        <h1 className={styles.naslov1}>The Wizarding World of</h1>
-        <h2 className={styles.naslov2}>Harry Potter</h2>
-            </div>
+            <a href="/" className={styles.title}> 
+                <h1 className={styles.naslov1}>The Wizarding World of</h1>
+                <h2 className={styles.naslov2}>Harry Potter</h2>
+            </a>
         <Nvbar/>
             </div>
         </header>

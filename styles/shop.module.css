@@ -26,7 +26,7 @@ color: #D3BA32;
 }
 
 .menu_container{
-    width: 256px;
+    width: 236px;
     height: 398px;
     --tw-bg-opacity: 1;
     background-color: rgb(211 186 50 / var(--tw-bg-opacity));
@@ -35,11 +35,17 @@ color: #D3BA32;
     font-size: 20px;
     line-height: 28px;
     font-family: Wizarding;
+    margin-right: 1px;
+}
+
+.menu_title{
+    font-size:40px;
 }
 
 .menu_buttons_container{
     display: flex;
     flex-direction: column;
+    place-items: center start;
 }
 
 .menu_buttons{
@@ -51,8 +57,8 @@ color: #D3BA32;
 }
 
 .allbutton_container{
-    padding: 0.75rem/* 12px */;
-    margin-left: 2.5rem/* 40px */;
+    /* padding: 0.75rem12px; */
+    /* margin-left: 2.5rem40px; */
 }
 
 .gtc_button{
@@ -96,6 +102,39 @@ color: #D3BA32;
     color: rgb(139 121 15 / var(--tw-text-opacity));
 }
 
+@media(max-width:820px)
+{
+    .menu_container{
+        margin-right: 2rem;
+    }
+      .picture{
+        width:179px;
+        height:194px;
+    }
+       .producttext{
+        font-size: 30px !important ;
+    }
+    .box{
+        height:30px;
+    }
+    .menu_container{
+        width:200px;
+        height:250px;
+        font-size: 10px;
+        line-height: 11px;
+        margin-right: 0;
+    }
+    .menu_title{
+        font-size: 40px;
+    }
+    .menu_buttons{
+        margin: 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
+
 @media (max-width:420px)
 {
 
@@ -110,4 +149,19 @@ color: #D3BA32;
     .box{
         height:30px;
     }
+    .menu_container{
+        width:100px;
+        height:150px;
+        font-size: 10px;
+        line-height: 11px;
+        margin-right: 0;
+    }
+    .menu_title{
+        font-size: 20px;
+    }
+    .menu_buttons{
+        margin: 0;
+    }
+
+
 }

@@ -30,9 +30,9 @@ export default function Shop(){
             <div className="text-6xl text-text_yellow font-HarryP">Get the new Harry Potter merchandise</div>
             <div className='container-fluid g-0'>
             <div className='row'>
-            <div className='col-md-3 col-sm-4'>
-            <div className="bg-text_yellow text-hp_blue font-Wizarding text-xl mx-0">
-                <h1 className="p-4">Products</h1>
+            <div className='col-md-3'>
+            <div className={styles.menu_container}>
+                <h1 className={styles.menu_title}>Products</h1>
                 
                 <div className={styles.menu_buttons_container}>
                     <button className={styles.menu_buttons} onClick={()=>filterResult('Clothes')}>Clothes</button>
@@ -45,20 +45,20 @@ export default function Shop(){
                 </div>
                 <div className="w-6 h-6">
                     <Image src={Cart} />
-                    <button className="border-2 border-hp_blue rounded-md text-justify hover:text-hov_yellow">Go To Cart</button>
+                    <button className={styles.gtc_button}>Go To Cart</button>
                 </div>
                 
             </div>
 
             </div>
-            <div className='col'>
+            <div className='col-md-9'>
             <div>
                 <div className='container-fluid '>
                     <div className='row '>
                 {data.map((product)=>(
                     // <div className={styles.product_grid}>
                     <>
-                        <div class='col-lg-4 col-sm-6  pb-4'>  
+                        <div class='col-lg-4 col-md-6  '>  
                         <div class="row">
                         <div class="row">
                         <div className={styles.picture}>

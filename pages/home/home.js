@@ -41,9 +41,9 @@ const Home =()=>{
                                 <div className={styles.align}>
                                     <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
                                     <button className={styles.discover}>
-                                        <Link href="/hogwarts_houses">
+                                        <a href="/hogwarts_houses">
                                             <h4 className={styles.bttn}>discover</h4>
-                                        </Link>
+                                        </a>
                                     </button>
                                 </div>
                             </div>

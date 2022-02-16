@@ -27,13 +27,12 @@ export default function Shop(){
             </Head>
             <Header />
             <Image src={Banner}/>
-            <div className={styles.banner_text}>Get the new Harry Potter merchandise</div>
-            <div ></div>
+            <div className="text-6xl text-text_yellow font-HarryP">Get the new Harry Potter merchandise</div>
             <div className='container-fluid g-0'>
             <div className='row'>
-            <div className='col-3'>
+            <div className='col-md-3'>
             <div className={styles.menu_container}>
-                <h1 className="p-4">Products</h1>
+                <h1 className={styles.menu_title}>Products</h1>
                 
                 <div className={styles.menu_buttons_container}>
                     <button className={styles.menu_buttons} onClick={()=>filterResult('Clothes')}>Clothes</button>
@@ -44,22 +43,22 @@ export default function Shop(){
                         <button className={styles.menu_buttons} onClick={()=>setData(Categories)}>All products</button>
                     </span>
                 </div>
-                <div className={styles.cart_container}>
-                    <Image src={Cart}/>
+                <div className="w-6 h-6">
+                    <Image src={Cart} />
                     <button className={styles.gtc_button}>Go To Cart</button>
                 </div>
                 
             </div>
 
             </div>
-            <div className='col'>
+            <div className='col-md-9'>
             <div>
-                <div className='container-fluid g-0'>
+                <div className='container-fluid '>
                     <div className='row '>
                 {data.map((product)=>(
                     // <div className={styles.product_grid}>
                     <>
-                        <div class='col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-4'>  
+                        <div class='col-lg-4 col-md-6  '>  
                         <div class="row">
                         <div class="row">
                         <div className={styles.picture}>

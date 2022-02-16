@@ -137,6 +137,11 @@ text-align: center;
   cursor:pointer;
 }
 
+/* .picture{
+  width:204px;
+  height:215px;
+} */
+
 .align{
 display: flex;
 flex-direction: column;
@@ -157,11 +162,6 @@ place-items: center start;
 .bttn:hover{
   color: #8b790f;
 }
-
-/*.window.scroll{
-  top: 0; 
-  left: 0; 
-};*/
 
 @media (max-width: 800px)
 {

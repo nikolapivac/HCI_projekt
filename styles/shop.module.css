@@ -132,7 +132,12 @@ color: #D3BA32;
         font-size: 15px;
         line-height: 20px;
     }
-
+ .producttext{
+        font-size: 20px !important;
+    }
+.box{
+    height:45px ;
+}
 }
 
 @media (max-width:420px)
@@ -142,10 +147,10 @@ color: #D3BA32;
         width:179px;
         height:194px;
     }
-
     .producttext{
-        font-size: 20px !important ;
+        font-size: 20px !important;
     }
+
     .box{
         height:30px;
     }

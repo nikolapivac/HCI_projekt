@@ -58,19 +58,19 @@ export default function Shop(){
                 {data.map((product)=>(
                     // <div className={styles.product_grid}>
                     <>
-                        <div class='col-lg-4 col-md-6  '>  
-                        <div class="row">
-                        <div class="row">
+                        <div className='col-lg-4 col-md-6  '>  
+                        <div className="row">
+                        <div className="row">
                         <div className={styles.picture}>
                             <img src={product.image} class="img-fluid" />
                         </div>
                         </div>
                         <div className={styles.box}>
-                        <div class='row'>
+                        <div className='row'>
                             <h4 className={styles.producttext}>{product.name}</h4>
                         </div>
                         </div>
-                        <div class="row">
+                        <div className="row">
                             <h4 className={styles.producttext}>{product.price}</h4>
                         <button className={styles.atc_button}>Add To Cart</button>
                         </div>

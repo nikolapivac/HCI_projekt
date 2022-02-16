@@ -54,7 +54,7 @@ const Hufflepuff=()=>{
     </div>
 </div>
 <div className={styles.background}>
-    <div className="container-fluid" class={styles.background}>
+    <div className="container-fluid" className={styles.background}>
         <div className="row">
             <h4 className={styles.title2}>Notable members</h4>
             <div className="col">

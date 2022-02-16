@@ -6,6 +6,9 @@ src:url("../../fonts/HARRYP__.TTF") format("truetype");
     border-radius: 30px;
     object-fit: cover;
 }
+.pic:hover{
+  cursor:pointer;
+}
 .text{
 color: rgba(211, 186, 50, 1);
 font-family: HarryP;

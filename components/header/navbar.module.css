@@ -94,6 +94,9 @@ place-items: start center;
 margin: auto;
 text-decoration: none;
 }
+.title:hover{
+  cursor:pointer;
+}
 
 .bttn{
   color:  #0C1631;

@@ -19,7 +19,7 @@ export default function PostPage({
       <Header />  
       <div className={styles.postcontainer}>
        <div className='container-fluid'>
-      <div class="row">
+      <div className="row">
         {/* <div className={styles.container}> */}
           <div className='col-6 gx-0'>
         <img className={styles.blog_image} className="img-fluid" src={cover_image} alt='' />  
@@ -31,7 +31,7 @@ export default function PostPage({
         </div>
       {/* </div> */}
         </div>
-      <div class="row">
+      <div className="row">
         <div className={styles.post_body}>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           <a href={`/blog_index`} className={styles.button}>Back To Blog</a> 

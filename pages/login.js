@@ -19,19 +19,19 @@ export default function LoginPage() {
                         <h1 className={styles.joinus}>Join Us</h1>
 
                         <div className={styles.signup_form}>
-                            <label className="flex" for="name"><b>Name</b></label>
+                            <label className="flex" htmlFor="name"><b>Name</b></label>
                             <input className ="mb-3" type="text" placeholder="" name="name" required></input>
                         </div>
                         <div className={styles.signup_form}>
-                            <label className="flex" for="uname"><b>Username</b></label>
+                            <label className="flex" htmlFor="uname"><b>Username</b></label>
                             <input className ="mb-3" type="text" placeholder="" name="uname" required></input>
                         </div>
                         <div className={styles.signup_form}>
-                            <label className="flex" for="psw"><b>Password</b></label>
+                            <label className="flex" htmlFor="psw"><b>Password</b></label>
                             <input className ="mb-3" type="password" placeholder="" name="psw" required></input>
                         </div>
                         <div className={styles.signup_form}>
-                            <label className="flex" for="dob"><b>Date of birth</b></label>
+                            <label className="flex" htmlFor="dob"><b>Date of birth</b></label>
                             <input className ="mb-3" type="date" placeholder="" name="dob" required></input>
                         </div>
 
@@ -42,11 +42,11 @@ export default function LoginPage() {
                         <h2 className={styles.already}>Already have an account?</h2>
 
                         <div className={styles.signup_form}>
-                            <label className="flex" for="uname"><b>Username</b></label>
+                            <label className="flex" htmlFor="uname"><b>Username</b></label>
                             <input className ="mb-3" type="text" placeholder="" name="uname" required></input>
                         </div>
                         <div className={styles.signup_form}>
-                            <label className="flex" for="psw"><b>Password</b></label>
+                            <label className="flex" htmlFor="psw"><b>Password</b></label>
                             <input className ="" type="password" placeholder="" name="psw" required></input>
                         </div>
                         <h4 className={styles.forgot}>Forgot your password?</h4>

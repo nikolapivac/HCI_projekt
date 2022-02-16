@@ -17,11 +17,14 @@ const Header =()=>{
             <Link href="/login"><h4 className={styles.bttn}>Login</h4></Link>
             </button>
             <div className={styles.title}>
-
-            <a href="/" className={styles.title}> 
-                <h1 className={styles.naslov1}>The Wizarding World of</h1>
-                <h2 className={styles.naslov2}>Harry Potter</h2>
-            </a>
+            <div className={styles.title}>
+                <Link href="/"> 
+                    <h1 className={styles.naslov1}>The Wizarding World of</h1>
+                </Link>
+                <Link href="/">
+                    <h2 className={styles.naslov2}>Harry Potter</h2>
+                </Link>
+            </div>
         <Nvbar/>
             </div>
         </header>

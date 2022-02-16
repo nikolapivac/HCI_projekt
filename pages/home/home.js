@@ -20,8 +20,8 @@ const Home =()=>{
                 <title>Home | Wizarding World of Harry Potter</title>
             </Head>
             <div className={styles.contentwrap}>
-                <div class={styles.container}>
-                    <Image src={Banner} alt="Banner" class={styles.banner} className="img-fluid"/>
+                <div className={styles.container}>
+                    <Image src={Banner} alt="Banner" className={styles.banner} className="img-fluid"/>
                     <div className={styles.align}>
                         <h1 className={styles.centered}>Start your Hogwarts adventure</h1>
                         <button className={styles.signup}>
@@ -41,9 +41,9 @@ const Home =()=>{
                                 <div className={styles.align}>
                                     <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>
                                     <button className={styles.discover}>
-                                        <a href="/hogwarts_houses">
+                                        <Link href="/hogwarts_houses">
                                             <h4 className={styles.bttn}>discover</h4>
-                                        </a>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>

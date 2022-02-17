@@ -12,9 +12,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.png" key="icon" />
       </Head>
       <Component {...pageProps} />
-<script>var Alert = ReactBootstrap.Alert;</script>
+      <script>var Alert = ReactBootstrap.Alert;</script>
     </>
-    
   );
 }
 

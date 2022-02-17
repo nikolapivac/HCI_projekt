@@ -1,59 +1,59 @@
 @font-face {
-font-family: "HarryP";
-src:url("../../fonts/HARRYP__.TTF") format("truetype");
+    font-family: "HarryP";
+    src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 @font-face {
-font-family: "Wizarding";
-src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+    font-family: "Wizarding";
+    src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
-.background
-{
+
+.background{
     background: rgba(93, 93, 93, 1);
 }
-.title
-{
-font-family: HarryP;
-font-style: normal;
-font-weight: normal;
-font-size: 100px;
-line-height: 101px;
-text-align: center;
-color:rgba(14, 26, 64, 1);
+
+.title{
+    font-family: HarryP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 101px;
+    text-align: center;
+    color:rgba(14, 26, 64, 1);
 }
 
-.title2{
-font-family: HarryP;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 61px;
-color: rgba(14, 26, 64, 1);
+.title2 {
+    font-family: HarryP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 61px;
+    color: rgba(14, 26, 64, 1);
 }
 
-.text{
-color:rgba(14, 26, 64, 1);
-font-family: HarryP;
-font-style: normal;
-font-weight: normal;
-text-align: center start;
-}
-.text2{
-list-style: none;
-color: rgba(14, 26, 64, 1);
-font-family: Wizarding;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 26px;
+.text {
+    color:rgba(14, 26, 64, 1);
+    font-family: HarryP;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center start;
 }
 
-.picture{
-border-radius: 20px;
-object-fit: cover;
-
+.text2 {
+    list-style: none;
+    color: rgba(14, 26, 64, 1);
+    font-family: Wizarding;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 26px;
 }
 
-.button{
+.picture {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.button {
     text-decoration: none;
     font-family: Wizarding;
     font-size: 15px;
@@ -64,7 +64,7 @@ object-fit: cover;
     margin:1rem;
 }
 
-.button:hover{
+.button:hover {
     color:#8b790f;
 }
 

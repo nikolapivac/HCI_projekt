@@ -8,6 +8,7 @@ import gimg from "../components/SignInWithGoogle.png"
 
 export default function LoginPage() {
     return(
+        
         <div className="bg-hp_blue">
             <Header />
             <Head>
@@ -17,7 +18,6 @@ export default function LoginPage() {
                 <div className={styles.container}>
                     <div className={styles.sign_up}>
                         <h1 className={styles.joinus}>Join Us</h1>
-
                         <div className={styles.signup_form}>
                             <label className="flex" htmlFor="name"><b>Name</b></label>
                             <input className ="mb-3" type="text" placeholder="" name="name" required></input>
@@ -34,7 +34,6 @@ export default function LoginPage() {
                             <label className="flex" htmlFor="dob"><b>Date of birth</b></label>
                             <input className ="mb-3" type="date" placeholder="" name="dob" required></input>
                         </div>
-
                         <button className={styles.button}>Sign Up</button>   
                     </div>
                     <h2 className={styles.line}></h2>
@@ -55,12 +54,11 @@ export default function LoginPage() {
                         <div className={styles.gimagecont}>
                             <Image src={gimg} className={styles.gimage}></Image>
                         </div>
-                        
                     </div>
                 </div>
             </main>
-        <Footer />
+            
+            <Footer />
         </div>
     )
-
 }

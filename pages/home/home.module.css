@@ -1,122 +1,121 @@
 @font-face {
-font-family: "HarryP";
-src:url("../../fonts/HARRYP__.TTF") format("truetype");
+  font-family: "HarryP";
+  src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 @font-face {
-font-family: "Wizarding";
-src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+  font-family: "Wizarding";
+  src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
 
 .banner {
-width: 100%;
-height: auto;
-left: 0px;
-position: absolute;
-background-position: center;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  position: absolute;
+  background-position: center;
 }
 
-.paigecontainer
-{
-    display: flex ;
-    flex-direction: column;
-    min-height:80vh;
-    background-color: #0C1631;
-    place-items: center start;
+.paigecontainer {
+  display: flex ;
+  flex-direction: column;
+  min-height:80vh;
+  background-color: #0C1631;
+  place-items: center start;
 }
 
-.contentwrap{
-flex:1;
+.contentwrap {
+  flex:1;
 }
 
 .centered {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 1547px;
-height: 200px;
-font-size: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1547px;
+  height: 200px;
+  font-size: 90px;
 }
 
 .container {
-position: relative;
-text-align: center;
-font-family: HarryP;
-color: #D3BA32;
-background-color: #0C1631;
+  position: relative;
+  text-align: center;
+  font-family: HarryP;
+  color: #D3BA32;
+  background-color: #0C1631;
 }
 
 .signup{
-position:absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-width: 120px;
-height: 40px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-background:#D3BA32;
-border-radius: 5px;
-font-family: Wizarding;
-font-size: 20px;
-line-height: 21px;
-align-items: center;
-text-align: center;
-color: #0C1631;
-margin-top:2rem;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 120px;
+  height: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background:#D3BA32;
+  border-radius: 5px;
+  font-family: Wizarding;
+  font-size: 20px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #0C1631;
+  margin-top:2rem;
 }
 
-.signup a{
+.signup a {
   text-decoration: none;
   color:inherit;
 }
 
-.signup a:hover{
+.signup a:hover {
   color: #8b790f;
 }
-.houses{
- background-color: #0C1631; 
- padding: 3rem;
- position: relative;  
- bottom: 0;
- width:100%;
+
+.houses {
+  background-color: #0C1631; 
+  padding: 3rem;
+  position: relative;  
+  bottom: 0;
+  width:100%;
 }
 
-.flagsnaslov{
-text-align: center;
-font-family: HarryP;
-font-size: 85px;
-line-height: 86px;
-color: #D3BA32;
-}
-.discover{
-width: 130px;
-height: 40px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-background:#D3BA32;
-border-radius: 10px;
-font-size: 20px;
-line-height: 25px;
-align-items: center;
-text-align: center;
+.flagsnaslov {
+  text-align: center;
+  font-family: HarryP;
+  font-size: 85px;
+  line-height: 86px;
+  color: #D3BA32;
 }
 
-.discover a{
+.discover {
+  width: 130px;
+  height: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background:#D3BA32;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+}
+
+.discover a {
   text-decoration: none;
   color: inhe;
 }
-.discover:hover{
+
+.discover:hover {
   color: #8b790f;
 }
 
-.color
-{
+.color{
     color: #0C1631;
-
 }
 
-.shop
-{
+.shop {
   background-color:#D3BA32;
   color: #0C1631;
   font-family:Wizarding;
@@ -125,7 +124,7 @@ text-align: center;
   text-align: center;
 }
 
-.shoptitle{
+.shoptitle {
   color: #0C1631;
   font-family: HarryP;
   font-size:60px;
@@ -133,24 +132,18 @@ text-align: center;
   text-align: center;
 }
 
-.shop h5:hover{
+.shop h5:hover {
   cursor:pointer;
 }
 
-/* .picture{
-  width:204px;
-  height:215px;
-} */
-
-.align{
-display: flex;
-flex-direction: column;
-place-items: center start;
-
+.align {
+  display: flex;
+  flex-direction: column;
+  place-items: center start;
 }
 
-.bttn{
-    color:  #0C1631;
+.bttn {
+  color:#0C1631;
   font-size: 20px;
   line-height:25px;
   text-align: center;
@@ -159,7 +152,7 @@ place-items: center start;
   text-decoration: none;
 }
 
-.bttn:hover{
+.bttn:hover {
   color: #8b790f;
 }
 

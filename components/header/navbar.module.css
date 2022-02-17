@@ -1,104 +1,109 @@
 @font-face {
-font-family: "Wizarding";
-src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
-}
+  font-family: "Wizarding";
+  src:url("../../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+  }
 @font-face {
-font-family: "HarryP";
-src:url("../../fonts/HARRYP__.TTF") format("truetype");
+  font-family: "HarryP";
+  src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 
 .header {
-width: 100%;
-display: flex;
-place-items: center;
-justify-content: center;
-margin: auto;
-min-height: calc(20vh + 5em);
-background:#0C1631;
-position: relative;}
-
-.log_in{
-position: absolute;
-width: 80px;
-height: 25px;
-right:5px;
-top: 5px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-background:#D3BA32;
-border-radius: 2px;
-display: inline-block;
-align-items: center;
-text-align: center;
-color: #0C1631;
-color: inherit;
+  width: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin: auto;
+  min-height: calc(20vh + 5em);
+  background:#0C1631;
+  position: relative;
 }
-.log_in a{
+
+.log_in {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  right:5px;
+  top: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background:#D3BA32;
+  border-radius: 2px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #0C1631;
+  color: inherit;
+}
+
+.log_in a {
   text-decoration: none;
   color: inherit;
 }
-.log_in a:hover{
+
+.log_in a:hover {
   color:#8b790f;
 }
 
-.nvbar{
+.nvbar {
   background-color: #0C1631;
   font-family: Wizarding;
   color: #D3BA32;
   align-items: center;
 }
 
-.collapsenvbar{
+.collapsenvbar {
   right:5px !important;
   top: 5px !important;
   position:relative;
 }
 
-.items{
+.items {
   color: #D3BA32;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
 }
 
-.items:hover{
+.items:hover {
   color: #8b790f;
 }
 
-.naslov1{
-font-family: Wizarding;
-color: #D3BA32;
-width: 700px;
-height: 51px;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 31px;
-text-align: center;
-}
-.naslov2{
-font-family: HarryP;
-color: #D3BA32;
-width: 700px;
-height: 51px;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 51px;
-text-align: center;    
+.naslov1 {
+  font-family: Wizarding;
+  color: #D3BA32;
+  width: 700px;
+  height: 51px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
 }
 
-.title{
-display: flex;
-flex-direction: column;
-place-items: start center;
-margin: auto;
-text-decoration: none;
+.naslov2 {
+  font-family: HarryP;
+  color: #D3BA32;
+  width: 700px;
+  height: 51px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 51px;
+  text-align: center;    
 }
-.title:hover{
+
+.title {
+  display: flex;
+  flex-direction: column;
+  place-items: start center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.title:hover {
   cursor:pointer;
 }
 
-.bttn{
+.bttn {
   color:  #0C1631;
   font-size: 15px;
   text-align: center;
@@ -106,7 +111,7 @@ text-decoration: none;
   font-family: Wizarding;
 }
 
-.bttn:hover{
+.bttn:hover {
   color:#8b790f;
 }
 

@@ -11,16 +11,20 @@ import styles from '../components/films.module.css'
 export default function FilmIndex({ films }) {
     return (
       <div>
+
         <Header />
+
         <Head>
           <title>Films</title>
         </Head>
-          <h1 className={styles.title}>Films</h1>
+
+        <h1 className={styles.title}>Films</h1>
         <div className={styles.filmscontainer}>
             {films.map((film, index) => (
                 <Film key={index} film={film} />
             ))}
         </div>
+        
         <Footer />
       </div> 
     )

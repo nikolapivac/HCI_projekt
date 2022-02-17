@@ -12,13 +12,15 @@ import Shop2 from"../slike/shop/ChocFrog.png"
 import Shop3 from "../slike/shop/Marauders_Map.png"
 import Shop4 from "../slike/shop/ron_sweater.png"
 
-const Home =()=>{
+const Home = () => {
     return (
         <div className={styles.pagecontainer}>
             <Header/>
+
             <Head>
                 <title>Home | Wizarding World of Harry Potter</title>
             </Head>
+
             <div className={styles.contentwrap}>
                 <div className={styles.container}>
                     <Image src={Banner} alt="Banner" className={styles.banner} />
@@ -32,11 +34,9 @@ const Home =()=>{
                 <div className={styles.houses}>
                     <div className='container-fluid'>
                         <div className='row'>
-                            {/* {column0} */}
                             <div className='col-md-5'>
                                 <Image class="img-fluid" src={FlagsImg}></Image>
                             </div>
-                            {/* {column1} */}
                             <div className='col-md'>
                                 <div className={styles.align}>
                                     <h4 className={styles.flagsnaslov}>Hogwarts houses</h4>

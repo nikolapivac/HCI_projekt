@@ -1,37 +1,41 @@
 @font-face {
-font-family: "HarryP";
-src:url("../../fonts/HARRYP__.TTF") format("truetype");
-}
-.pic{
-    border-radius: 30px;
-    object-fit: cover;
-    max-width:100%  ;
-    height:auto;
-}
-.pic:hover{
-  cursor:pointer;
-}
-.text{
-color: rgba(211, 186, 50, 1);
-font-family: HarryP;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-list-style:none;
-text-align: center;
-cursor: pointer;
-text-decoration:none;
+  font-family: "HarryP";
+  src:url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 
-.text:hover{
+.pic{
+  border-radius: 30px;
+  object-fit: cover;
+  max-width:100%  ;
+  height:auto;
+}
+
+.pic:hover {
+  cursor:pointer;
+}
+
+.text {
+  color: rgba(211, 186, 50, 1);
+  font-family: HarryP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  list-style:none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+.text:hover {
   color:#8b790f;
   cursor: pointer;
 }
-.background{
+
+.background {
 background: rgba(12, 22, 49, 1);
 }
 
-.window.scroll{
+.window.scroll {
   top: 0; 
   left: 0; 
 };

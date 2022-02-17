@@ -1,6 +1,6 @@
 @font-face {
-font-family: "Wizarding";
-src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
+    font-family: "Wizarding";
+    src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
 }
 @font-face {
     font-family: "HarryP";
@@ -13,16 +13,17 @@ src:url("../fonts/WizardWorldSimplified-Kxr7.ttf") format("truetype");
     bottom: 0;
 }
 
-.box{
+.box {
     height:50px;
 }
-.picture{
+.picture {
     width:303px;
     height:319px;
 }
-.producttext{
-font-family: Wizarding;
-color: #D3BA32;
+
+.producttext {
+    font-family: Wizarding;
+    color: #D3BA32;
 }
 
 .menu_container{
@@ -38,11 +39,11 @@ color: #D3BA32;
     margin-right: 1px;
 }
 
-.menu_title{
+.menu_title {
     font-size:40px;
 }
 
-.menu_buttons_container{
+.menu_buttons_container {
     display: flex;
     flex-direction: column;
     place-items: center start;
@@ -70,6 +71,7 @@ color: #D3BA32;
     text-align: justify;
     white-space: nowrap;
 }
+
 .gtc_button:hover{
     --tw-text-opacity: 1;
     color: rgb(139 121 15 / var(--tw-text-opacity));

@@ -19,12 +19,3 @@ export default function Post({ post }) {
   )
 }
 
-{/* <img className={styles.blog_image} src={post.frontmatter.cover_image} alt='' />
-
-<h3 className={styles.card_title}>{post.frontmatter.title}</h3>
-
-<p className={styles.card_body}>{post.frontmatter.excerpt}</p>
-
-<Link href={`/blog/${post.slug}`}>
-  <a className={styles.button}>Read More</a>
-</Link> */}

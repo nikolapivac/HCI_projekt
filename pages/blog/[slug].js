@@ -8,36 +8,35 @@ import Footer from '../../components/footer/footer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from './blogpost.module.css'
 
-export default function PostPage({
-  frontmatter: { title, date, cover_image },
-  slug,
-  content,
-}) {
+export default function PostPage({frontmatter: { title, date, cover_image }, slug, content,}) {
   return (
     <>
-      <Head><title>{title}</title></Head>  
-      <Header />  
+      <Head>
+        <title>{title}</title>
+      </Head>
+
+      <Header /> 
+
       <div className={styles.postcontainer}>
-       <div className='container-fluid'>
-      <div className="row">
-        {/* <div className={styles.container}> */}
-          <div className='col-6 gx-0'>
-        <img  object-fit="cover" max-width="100%"  height="auto" src={cover_image} alt='' />  
-          </div>
-          <div className='col-6'>
-        <h4 className={styles.post_title}>{title}</h4>
-        <div className={styles.post_date}>Posted on {date}</div>
+        <div className='container-fluid'>
+          <div className="row">
+            <div className='col-6 gx-0'>
+              <img  object-fit="cover" max-width="100%"  height="auto" src={cover_image} alt='' />  
+            </div>
+            <div className='col-6'>
+              <h4 className={styles.post_title}>{title}</h4>
+              <div className={styles.post_date}>Posted on {date}</div>
+            </div>
           </div>
         </div>
-      {/* </div> */}
-        </div>
-      <div className="row">
-        <div className={styles.post_body}>
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-          <a href={`/blog_index`} className={styles.button}>Back To Blog</a> 
+        <div className="row">
+          <div className={styles.post_body}>
+            <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+            <a href={`/blog_index`} className={styles.button}>Back To Blog</a> 
+          </div>
         </div>
       </div>
-      </div>
+      
       <Footer />
     </>
   )

@@ -12,26 +12,28 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export default function BlogIndex({ posts }) {
-    return (
-      <div>
-        <div className={styles.pagecontainer}>
+  return (
+    <div>
+      <div className={styles.pagecontainer}>
         <Header />
-         <div className={styles.contentwrap}>
+
         <Head>
           <title>Blog</title>
         </Head>
 
-        <div className={stylesblog.postcontainer}>
+        <div className={styles.contentwrap}>
+          <div className={stylesblog.postcontainer}>
             {posts.map((post, index) => (
-              <Post key={index} post={post} />
-              ))}
+            <Post key={index} post={post} />
+            ))}
+          </div>
         </div>
-        </div>
+
         <Footer />
       </div> 
-      </div>
-    )
-  }
+    </div>
+  )
+}
 
 export async function getStaticProps() {
 // Getting markdown files from the posts directory

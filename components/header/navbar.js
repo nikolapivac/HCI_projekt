@@ -11,7 +11,7 @@ const Nvbar = () => {
         <Navbar sticky="top" expand="md" collapseOnSelect className={styles.nvbar}>
         <div className={styles.toggle}>
 
-        <Navbar.Toggle />
+        <Navbar.Toggle  style={{ color:"#8b790f" ,background:"#8b790f"}}/>
         <Navbar.Collapse >
 
 

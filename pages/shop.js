@@ -59,7 +59,7 @@ export default function Shop(){
                     // <div className={styles.product_grid}>
                     <>
                         <div className='col-lg-4 col-md-6  '>  
-                        <div className="row">
+                        <div className="row ">
                         <div className="row">
                         <div className={styles.picture}>
                             <img src={product.image} className="img-fluid" />

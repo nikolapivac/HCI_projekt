@@ -28,7 +28,7 @@
 
 .menu_container{
     width: 236px;
-    height: 398px;
+    height: 340px;
     --tw-bg-opacity: 1;
     background-color: rgb(211 186 50 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
@@ -56,11 +56,11 @@
     --tw-text-opacity: 1;
     color: rgb(139 121 15 / var(--tw-text-opacity));
 }
-
+/* 
 .allbutton_container{
-    /* padding: 0.75rem12px; */
-    /* margin-left: 2.5rem40px; */
-}
+    padding: 0.75rem; 
+     margin-left: 2.5rem;
+} */
 
 .gtc_button{
     border-width: 2px;
@@ -92,7 +92,7 @@
 
 .atc_button{
     padding: 4px;
-    border-radius: 0.375rem/* 6px */;
+    border-radius: 0.375rem;
     --tw-bg-opacity: 1;
     background-color: rgb(211 186 50 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
@@ -145,30 +145,39 @@
 @media (max-width:420px)
 {
 
-    .picture{
-        width:179px;
-        height:194px;
-    }
-    .producttext{
-        font-size: 20px !important;
+     .picture{
+        width:100%;
+        height:auto;
+        padding-right: 0px;
+        margin-left: 0.4rem;
     }
 
-    .box{
-        height:30px;
-    }
+    .atc_button{
+
+        width:100%; 
+        margin-left: 0.75rem;
+    } 
+
     .menu_container{
-        width:100px;
-        height:150px;
-        font-size: 10px;
-        line-height: 11px;
-        margin-right: 0;
+        width:100%;
+        height:215px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 2rem;
+        
     }
     .menu_title{
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom:0px ;
     }
     .menu_buttons{
         margin: 0;
+        font-size: 18px;
+        line-height: 25px;
     }
-
+    .producttext
+    {
+        margin-left: 0.25rem;
+    }
 
 }
